@@ -59,13 +59,126 @@
           </div>
         </div>
       </div>
+      <div class="main">
+        <div class="main__wrapper">
+          <div class="main__wrapperTitle">
+            <div class="main__textLeft">
+              <p class="main__textLeftTitle">
+                We have dedicated designers on these
+              </p>
+            </div>
+            <div class="main__textRight">
+              <p class="main__textRightTitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus massa viverra cursus ac pretium turpis. Ut in lorem
+                volutpat sed dolor dolor eu felis.
+              </p>
+            </div>
+          </div>
+          <ul class="main__list">
+            <mainList
+              v-for="(item, i) in mainList"
+              :key="i"
+              class="main__listItem"
+              :title="item.title"
+              :text="item.text"
+            >
+            </mainList>
+          </ul>
+        </div>
+      </div>
+      <div class="underMain">
+        <div class="underMain__wrapper">
+          <div class="underMain__firstPart">
+            <div class="underMain__firstPartTextWrapper">
+              <div class="underMain__firstPartMainText">
+                <p class="underMain__firstPartMainTextItem">
+                  How can SRstudio help your business?
+                </p>
+              </div>
+              <div class="underMain__firstPartUnderMainTextItem">
+                <p style="margin-bottom: 35px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
+                  Et morbi at interdum sapien. Interdum malesuada hendrerit
+                  tincidunt placerat
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
+                </p>
+              </div>
+            </div>
+            <div class="underMain__firstPartPic">
+              <img
+                src="../static/underMain__firstPartPic.svg"
+                alt="logoUnderMain__firstPartPic"
+                class="underMain__firstPartPic"
+              />
+            </div>
+          </div>
+          <div class="underMain__secondPart">
+            <div class="underMain__secondPartPic">
+              <img
+                src="../static/underMain__secondPartPic.svg"
+                alt="logoUnderMain__secondPartPic"
+                class="underMain__secondPartPic"
+              />
+            </div>
+            <div class="underMain__secondPartTextWrapper">
+              <div class="underMain__secondPartTextWrapper">
+                <div class="underMain__secondPartMainText">
+                  <p class="underMain__secondPartMainTextItem">
+                    Hello, we are SRstudio Creative
+                  </p>
+                </div>
+                <div class="underMain__secondtPartUnderMainTextItem">
+                  <p style="margin-bottom: 35px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
+                    eget. Et morbi at interdum sapien. Interdum malesuada
+                    hendrerit tincidunt placerat
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
+                    eget.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      mainList: [
+        {
+          title: 'Visual Identity',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+        },
+        {
+          title: 'Website Design',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+        },
+        {
+          title: 'Collaboration',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+        },
+        {
+          title: 'UI/UX Design',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+        },
+      ],
+    }
+  },
 }
 </script>
 
@@ -124,7 +237,7 @@ a {
   opacity: 0.75;
 }
 .header__linkButton {
-  margin-top: -8px;
+  margin-top: -81px;
   color: white;
   background: #ff7900;
   border-radius: 10px;
@@ -165,5 +278,108 @@ a {
 .underHeader__rightLogo {
   width: 562px;
   height: 681px;
+}
+
+.main_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__wrapperTitle {
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.main__textLeft {
+  display: flex;
+  flex-wrap: wrap;
+  width: 489px;
+}
+.main__textLeftTitle {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 63px;
+}
+.main__textRight {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+}
+.main__textRightTitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.main__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__listItem {
+  width: 300px;
+  height: 344px;
+  border: 2px solid #e2e1e1;
+  border-radius: 10%;
+  margin-right: 16px;
+}
+
+.underMain__wrapper {
+  margin-top: 160px;
+}
+.underMain__firstPart {
+  display: flex;
+  flex-wrap: wrap;
+}
+.underMain__firstPartTextWrapper {
+  width: 558px;
+  margin-right: 92px;
+}
+.underMain__firstPartMainText {
+  margin-bottom: 32px;
+}
+.underMain__firstPartMainTextItem {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 63px;
+  margin-top: 100px;
+}
+.underMain__firstPartPic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.underMain__firstPartUnderMainTextItem {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.underMain__secondPart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.underMain__secondPartTextWrapper {
+  width: 540px;
+  margin-left: 72px;
+}
+.underMain__secondPartMainText {
+  margin-bottom: 32px;
+}
+.underMain__secondPartMainTextItem {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 63px;
+  margin-top: 100px;
+}
+.underMain__secondPartPic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.underMain__secondPartUnderMainTextItem {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 </style>
