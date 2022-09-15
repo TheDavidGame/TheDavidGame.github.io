@@ -19,7 +19,7 @@
                 <a href="#!" class="header__link">Influencers </a>
               </li>
               <li class="header__item">
-                <button class="header__link header__linkButton">
+                <button class="header__link header__link-button">
                   Get Started
                 </button>
               </li>
@@ -30,15 +30,15 @@
       <div class="underHeader">
         <div class="underHeader__wrapper">
           <div class="underHeader__left">
-            <div class="underHeader__leftTitle">
-              <p class="underHeader__leftTitleItem">
+            <div class="underHeader__title">
+              <h1 class="underHeader__title-item">
                 A digital
                 <span style="color: rgba(91, 193, 128, 1)">Product</span>
                 Design
-              </p>
+              </h1>
             </div>
-            <div class="underHeader__leftUnderTitle">
-              <p class="underHeader__leftUnderTitleText">
+            <div class="underHeader__under-title">
+              <p class="underHeader__under-title-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere
                 nunc augue cras curabitur amet. Bibendum ultrices sit eros, odio
                 turpis congue.
@@ -46,7 +46,7 @@
               <img
                 src="../static/underHeader__left.svg"
                 alt="logoLeftUnderHeader"
-                class="underHeader__leftLogo"
+                class="underHeader__left-logo"
               />
             </div>
           </div>
@@ -54,21 +54,21 @@
             <img
               src="../static/underHeader__right.svg"
               alt="logoRightUnderHeader"
-              class="underHeader__rightLogo"
+              class="underHeader__right-logo"
             />
           </div>
         </div>
       </div>
-      <div class="main">
+      <main class="main">
         <div class="main__wrapper">
-          <div class="main__wrapperTitle">
-            <div class="main__textLeft">
-              <p class="main__textLeftTitle">
+          <div class="main__title">
+            <div class="main__text-left">
+              <p class="main__text-left-title">
                 We have dedicated designers on these
               </p>
             </div>
-            <div class="main__textRight">
-              <p class="main__textRightTitle">
+            <div class="main__text-right">
+              <p class="main__text-right-title">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus massa viverra cursus ac pretium turpis. Ut in lorem
                 volutpat sed dolor dolor eu felis.
@@ -79,24 +79,24 @@
             <mainList
               v-for="(item, i) in mainList"
               :key="i"
-              class="main__listItem"
+              class="main__list-item"
               :title="item.title"
               :text="item.text"
             >
             </mainList>
           </ul>
         </div>
-      </div>
+      </main>
       <div class="underMain">
         <div class="underMain__wrapper">
-          <div class="underMain__firstPart">
-            <div class="underMain__firstPartTextWrapper">
-              <div class="underMain__firstPartMainText">
-                <p class="underMain__firstPartMainTextItem">
+          <div class="underMain__first-part">
+            <div class="underMain__first-part-text-wrapper">
+              <div class="underMain__first-part-main-text">
+                <p class="underMain__first-part-main-text-item">
                   How can SRstudio help your business?
                 </p>
               </div>
-              <div class="underMain__firstPartUnderMainTextItem">
+              <div class="underMain__first-part-under-main-text-item">
                 <p style="margin-bottom: 35px">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
                   neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
@@ -109,30 +109,30 @@
                 </p>
               </div>
             </div>
-            <div class="underMain__firstPartPic">
+            <div class="underMain__first-part-pic">
               <img
                 src="../static/underMain__firstPartPic.svg"
                 alt="logoUnderMain__firstPartPic"
-                class="underMain__firstPartPic"
+                class="underMain__first-part-pic"
               />
             </div>
           </div>
-          <div class="underMain__secondPart">
-            <div class="underMain__secondPartPic">
+          <div class="underMain__second-part">
+            <div class="underMain__second-part-pic">
               <img
                 src="../static/underMain__secondPartPic.svg"
                 alt="logoUnderMain__secondPartPic"
-                class="underMain__secondPartPic"
+                class="underMain__second-part-pic"
               />
             </div>
-            <div class="underMain__secondPartTextWrapper">
-              <div class="underMain__secondPartTextWrapper">
-                <div class="underMain__secondPartMainText">
-                  <p class="underMain__secondPartMainTextItem">
+            <div class="underMain__second-part-text-wrapper">
+              <div class="underMain__second-part-text-wrapper">
+                <div class="underMain__second-part-main-text">
+                  <p class="underMain__second-part-main-text-item">
                     Hello, we are SRstudio Creative
                   </p>
                 </div>
-                <div class="underMain__secondtPartUnderMainTextItem">
+                <div class="underMain__secondt-part-under-main-text-item">
                   <p style="margin-bottom: 35px">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
@@ -154,10 +154,10 @@
     <footer class="footer">
       <div class="footer__wrapper">
         <div class="footer__title">
-          <div class="footer__titleMain">
+          <div class="footer__title-main">
             <p>To Get More Information</p>
           </div>
-          <div class="footer__titleUnderMain">
+          <div class="footer__title-under-main">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
               in cursus eget interdum sed arcu nec, donec nibh.
@@ -166,7 +166,7 @@
         </div>
         <nav class="footer__nav">
           <ul class="footer__list">
-            <li class="footer__listItem">
+            <li class="footer__list-item">
               <img
                 src="../static/gmail.svg"
                 alt="logoUnderMain__secondPartPic"
@@ -175,7 +175,7 @@
               <p class="footer__text">Gmail</p>
               <a href="#!" class="footer__link">vlados.billi@gmail.com</a>
             </li>
-            <li class="footer__listItem">
+            <li class="footer__list-item">
               <img
                 src="../static/github.svg"
                 alt="logoUnderMain__secondPartPic"
@@ -186,7 +186,7 @@
                 >TheDavidGame</a
               >
             </li>
-            <li class="footer__listItem">
+            <li class="footer__list-item">
               <img
                 src="../static/telegram.svg"
                 alt="logoUnderMain__secondPartPic"
@@ -202,7 +202,7 @@
   </div>
 </template>
 
-<script scoped>
+<script>
 export default {
   name: 'IndexPage',
   data() {
@@ -230,7 +230,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .body {
   background-color: #f8f3f3;
   font-family: 'Roboto';
@@ -240,6 +240,8 @@ export default {
   max-width: 1400px;
   padding-bottom: 80px;
 }
+
+/* header styles start */
 .header {
   padding-bottom: 48px;
 }
@@ -251,8 +253,6 @@ export default {
   justify-content: space-between;
 }
 .header__logo {
-  display: flex;
-  flex-wrap: wrap;
   font-size: 27px;
   font-weight: 700;
 }
@@ -285,7 +285,7 @@ a {
 .header__onlineHelp:active {
   opacity: 0.75;
 }
-.header__linkButton {
+.header__link-button {
   margin-top: -81px;
   color: white;
   background: #ff7900;
@@ -293,6 +293,9 @@ a {
   width: 120px;
   height: 40px;
 }
+/* header styles end */
+
+/* underHeader styles start */
 .underHeader__wrapper {
   height: 800px;
   display: flex;
@@ -304,36 +307,36 @@ a {
   padding-top: 85px;
   width: 60%;
 }
-.underHeader__leftTitle {
+.underHeader__title {
   width: 500px;
   height: 50px;
 }
-.underHeader__leftTitleItem {
+.underHeader__title-item {
   font-weight: 500;
   font-size: 72px;
   line-height: 84px;
 }
-.underHeader__leftUnderTitleText {
+.underHeader__under-title-text {
   max-width: 700px;
 }
-.underHeader__leftLogo {
+.underHeader__left-logo {
   margin-left: -70px;
 }
 .underHeader__right {
-  display: flex;
-  flex-wrap: wrap;
   width: 25%;
 }
-.underHeader__rightLogo {
+.underHeader__right-logo {
   width: 562px;
   height: 681px;
 }
+/* underHeader styles end */
 
-.main_wrapper {
-  display: flex;
-  flex-wrap: wrap;
+/* main styles start */
+.main {
+  margin-bottom: 160px;
 }
-.main__wrapperTitle {
+
+.main__title {
   width: 1300px;
   display: flex;
   flex-wrap: wrap;
@@ -341,22 +344,18 @@ a {
   justify-content: space-between;
   margin-bottom: 150px;
 }
-.main__textLeft {
-  display: flex;
-  flex-wrap: wrap;
+.main__text-left {
   width: 489px;
 }
-.main__textLeftTitle {
+.main__text-left-title {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
 }
-.main__textRight {
-  display: flex;
-  flex-wrap: wrap;
+.main__text-right {
   width: 450px;
 }
-.main__textRightTitle {
+.main__text-right-title {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -365,72 +364,66 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-.main__listItem {
+.main__list-item {
   width: 300px;
   height: 344px;
   border: 2px solid #e2e1e1;
   border-radius: 10%;
   margin-right: 16px;
 }
+/* main styles end */
 
-.underMain__wrapper {
-  margin-top: 160px;
-}
-.underMain__firstPart {
+/* underMain styles start */
+.underMain__first-part {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 150px;
 }
-.underMain__firstPartTextWrapper {
+.underMain__first-part-text-wrapper {
   width: 558px;
   margin-right: 92px;
 }
-.underMain__firstPartMainText {
+.underMain__first-part-main-text {
   margin-bottom: 32px;
 }
-.underMain__firstPartMainTextItem {
+.underMain__first-part-main-text-item {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
   margin-top: 100px;
 }
-.underMain__firstPartPic {
-  display: flex;
-  flex-wrap: wrap;
-}
-.underMain__firstPartUnderMainTextItem {
+.underMain__first-part-under-main-text-item {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 
-.underMain__secondPart {
+.underMain__second-part {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 150px;
   margin-left: 50px;
 }
-.underMain__secondPartTextWrapper {
+.underMain__second-part-text-wrapper {
   width: 540px;
   margin-left: 72px;
 }
-.underMain__secondPartMainText {
+.underMain__second-part-main-text {
   margin-bottom: 32px;
 }
-.underMain__secondPartMainTextItem {
+.underMain__second-part-main-text-item {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
   margin-top: 100px;
 }
-.underMain__secondPartPic {
-  display: flex;
-  flex-wrap: wrap;
-}
-.underMain__secondPartUnderMainTextItem {
+.underMain__second-part-under-main-text-item {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
+/* underMain styles end */
+
+/* footer styles start */
 .footer__wrapper {
   width: 100%;
   height: 590px;
@@ -442,12 +435,12 @@ a {
   margin: 0 auto;
   padding-top: 76px;
 }
-.footer__titleMain {
+.footer__title-main {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
 }
-.footer__titleUnderMain {
+.footer__title-under-main {
   width: 560px;
   font-weight: 400;
   font-size: 18px;
@@ -466,8 +459,6 @@ a {
   list-style-type: none;
 }
 .footer__pic {
-  display: flex;
-  flex-wrap: wrap;
   height: 70px;
   width: 70px;
   margin-bottom: 16px;
@@ -490,4 +481,5 @@ a {
 .footer__link:active {
   opacity: 0.75;
 }
+/* footer styles end */
 </style>
