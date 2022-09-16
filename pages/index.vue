@@ -76,14 +76,98 @@
             </div>
           </div>
           <ul class="main__list">
-            <mainList
+            <div class="main__list-cards">
+              <img
+                src="../static/elipseOrange.svg"
+                alt="elipseOrange"
+                class="main__list-elipseOrange"
+              />
+              <div class="main__list-card">
+                <div class="main__list-pic">
+                  <img
+                    src="../static/visualIdentity.svg"
+                    alt="visualIdentity"
+                    class="main__list-pic-item"
+                  />
+                </div>
+                <div class="main__list-title1">
+                  <p class="main__list-title-item">Visual Identity</p>
+                </div>
+                <div class="main__list-text">
+                  <p class="main__list-text-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <img
+                src="../static/elipseGreen.svg"
+                alt="elipseGreen"
+                class="main__list-elipseGreen"
+              />
+              <div class="main__list-card">
+                <div class="main__list-pic">
+                  <img
+                    src="../static/websiteDesign.svg"
+                    alt="websiteDesign"
+                    class="main__list-pic-item"
+                  />
+                </div>
+                <div class="main__list-title2">
+                  <p class="main__list-title-item">Website Design</p>
+                </div>
+                <div class="main__list-text">
+                  <p class="main__list-text-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="main__list-card">
+                <div class="main__list-pic">
+                  <img
+                    src="../static/collaboration.svg"
+                    alt="collaboration"
+                    class="main__list-pic-item"
+                  />
+                </div>
+                <div class="main__list-title3">
+                  <p class="main__list-title-item">Collaboration</p>
+                </div>
+                <div class="main__list-text">
+                  <p class="main__list-text-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="main__list-card">
+                <div class="main__list-pic">
+                  <img
+                    src="../static/uiUxDesign.svg"
+                    alt="uiUxDesign"
+                    class="main__list-pic-item"
+                  />
+                </div>
+                <div class="main__list-title4">
+                  <p class="main__list-title-item">UI/UX Design</p>
+                </div>
+                <div class="main__list-text">
+                  <p class="main__list-text-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- <mainList
               v-for="(item, i) in mainList"
               :key="i"
               class="main__list-item"
               :title="item.title"
               :text="item.text"
             >
-            </mainList>
+            </mainList> -->
           </ul>
         </div>
       </main>
@@ -207,24 +291,24 @@ export default {
   name: 'IndexPage',
   data() {
     return {
-      mainList: [
-        {
-          title: 'Visual Identity',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-        },
-        {
-          title: 'Website Design',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-        },
-        {
-          title: 'Collaboration',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-        },
-        {
-          title: 'UI/UX Design',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-        },
-      ],
+      // mainList: [
+      //   {
+      //     title: 'Visual Identity',
+      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+      //   },
+      //   {
+      //     title: 'Website Design',
+      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+      //   },
+      //   {
+      //     title: 'Collaboration',
+      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+      //   },
+      //   {
+      //     title: 'UI/UX Design',
+      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
+      //   },
+      // ],
     }
   },
 }
@@ -232,7 +316,7 @@ export default {
 
 <style scoped>
 .body {
-  background-color: #f8f3f3;
+  background-color: #f8f7f7;
   font-family: 'Roboto';
 }
 .wrapper {
@@ -361,16 +445,87 @@ a {
   line-height: 26px;
 }
 .main__list {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1250px;
+  margin: 0 auto;
+  position: relative;
 }
-.main__list-item {
+.main__list-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-column-gap: 16px;
+}
+.main__list-elipseOrange {
+  top: -50px;
+  left: -50px;
+  position: absolute;
+  z-index: 1;
+}
+.main__list-elipseGreen {
+  top: 150px;
+  left: 40px;
+  position: absolute;
+  z-index: 1;
+}
+.main__list-card {
+  grid-column: span 1;
+  height: 344px;
+  background: #ffffff;
+  border: 2px solid #e2e1e1;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 42px 10px 10px 33px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+.main__list-pic {
+  margin-bottom: 16px;
+}
+.main__list-title1 {
+  width: 145px;
+  margin-bottom: 32px;
+  background: #b6fffb;
+  border-radius: 10px;
+}
+.main__list-title2 {
+  width: 145px;
+  margin-bottom: 32px;
+  background: #d3c4fb;
+  border-radius: 10px;
+}
+.main__list-title3 {
+  width: 145px;
+  margin-bottom: 32px;
+  background: #ffefb6;
+  border-radius: 10px;
+}
+.main__list-title4 {
+  width: 145px;
+  margin-bottom: 32px;
+  background: #b9ffb6;
+  border-radius: 10px;
+}
+.main__list-title-item {
+  padding: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #254ba8;
+}
+.main__list-text {
+  margin-bottom: 32px;
+}
+.main__list-text-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+/* .main__list-item {
   width: 300px;
   height: 344px;
   border: 2px solid #e2e1e1;
   border-radius: 10%;
   margin-right: 16px;
-}
+} */
 /* main styles end */
 
 /* underMain styles start */
