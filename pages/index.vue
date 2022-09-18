@@ -24,7 +24,16 @@
                 </button>
               </li>
             </ul>
+            <div @click="menuCloseItem()" class="header__nav-close">
+              <span class="header__nav-close-line"></span>
+              <span class="header__nav-close-line"></span>
+            </div>
           </nav>
+          <div @click="burgerHandler()" class="header__burger burger">
+            <span class="burger__line burger__line_first"> </span>
+            <span class="burger__line burger__line_second"> </span>
+            <span class="burger__line burger__line_third"> </span>
+          </div>
         </div>
       </header>
       <div class="underHeader">
@@ -281,6 +290,16 @@ export default {
   data() {
     return {}
   },
+  methods: {
+    burgerHandler() {
+      const menu = document.querySelector('.header__nav')
+      menu.classList.add('header__nav_active')
+    },
+    menuCloseItem() {
+      const menu = document.querySelector('.header__nav')
+      menu.classList.remove('header__nav_active')
+    },
+  },
 }
 </script>
 
@@ -296,14 +315,22 @@ export default {
 }
 
 /* header styles start */
-
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  z-index: 999;
+  padding: 0 8px;
+  background-color: #f8f7f786;
+}
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 34.5px;
-  margin-bottom: 35px;
+  padding-top: 20.5px;
 }
 .header__logo {
   font-size: 27px;
@@ -348,6 +375,32 @@ a {
   width: 120px;
   height: 40px;
 }
+
+.header__burger {
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+}
+.burger__line_first {
+  top: 0;
+}
+.burger__line_second {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.burger__line_third {
+  bottom: 0;
+}
 /* header styles end */
 
 /* underHeader styles start */
@@ -355,10 +408,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 100px;
   margin-bottom: 70px;
 }
 .underHeader__left {
-  width: 692px;
+  width: 560px;
   margin: 70px 0 20px 0;
 }
 .underHeader__title {
@@ -623,4 +677,69 @@ a {
   opacity: 0.75;
 }
 /* footer styles end */
+
+/* media start */
+@media screen and (max-width: 767px) {
+  .header__burger {
+    display: block;
+  }
+  .header__nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #dcf2f1;
+    z-index: 10;
+    padding: 75px;
+    transform: translateX(100%);
+    transition: 0.2s all linear;
+  }
+  .header__nav_active {
+    transform: translateX(0);
+  }
+  .header__item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .header__item:last-child {
+    margin-bottom: 0;
+  }
+  .header__link {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .header__link-button {
+    margin-top: 0;
+    color: white;
+    background: #ff7900;
+    border-radius: 10px;
+    width: 400px;
+    height: 80px;
+  }
+  .header__nav-close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+  }
+  .header__nav-close-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+  }
+  .header__nav-close-line:first-child {
+    transform: translateY(-50%) rotate(45deg);
+  }
+  .header__nav-close-line:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+}
+/* media end */
 </style>
