@@ -43,11 +43,11 @@
                 nunc augue cras curabitur amet. Bibendum ultrices sit eros, odio
                 turpis congue.
               </p>
-              <img
+              <!-- <img
                 src="../static/underHeader__left.svg"
                 alt="logoLeftUnderHeader"
                 class="underHeader__left-logo"
-              />
+              /> -->
             </div>
           </div>
           <div class="underHeader__right">
@@ -160,14 +160,6 @@
                 </div>
               </div>
             </div>
-            <!-- <mainList
-              v-for="(item, i) in mainList"
-              :key="i"
-              class="main__list-item"
-              :title="item.title"
-              :text="item.text"
-            >
-            </mainList> -->
           </ul>
         </div>
       </main>
@@ -197,7 +189,7 @@
               <img
                 src="../static/underMain__firstPartPic.svg"
                 alt="logoUnderMain__firstPartPic"
-                class="underMain__first-part-pic"
+                class="underMain__first-part-pic-item"
               />
             </div>
           </div>
@@ -206,29 +198,26 @@
               <img
                 src="../static/underMain__secondPartPic.svg"
                 alt="logoUnderMain__secondPartPic"
-                class="underMain__second-part-pic"
+                class="underMain__second-part-pic-item"
               />
             </div>
             <div class="underMain__second-part-text-wrapper">
-              <div class="underMain__second-part-text-wrapper">
-                <div class="underMain__second-part-main-text">
-                  <p class="underMain__second-part-main-text-item">
-                    Hello, we are SRstudio Creative
-                  </p>
-                </div>
-                <div class="underMain__secondt-part-under-main-text-item">
-                  <p style="margin-bottom: 35px">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
-                    eget. Et morbi at interdum sapien. Interdum malesuada
-                    hendrerit tincidunt placerat
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
-                    eget.
-                  </p>
-                </div>
+              <div class="underMain__second-part-main-text">
+                <p class="underMain__second-part-main-text-item">
+                  Hello, we are SRstudio Creative
+                </p>
+              </div>
+              <div class="underMain__secondt-part-under-main-text-item">
+                <p style="margin-bottom: 35px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
+                  Et morbi at interdum sapien. Interdum malesuada hendrerit
+                  tincidunt placerat
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
+                </p>
               </div>
             </div>
           </div>
@@ -290,26 +279,7 @@
 export default {
   name: 'IndexPage',
   data() {
-    return {
-      // mainList: [
-      //   {
-      //     title: 'Visual Identity',
-      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-      //   },
-      //   {
-      //     title: 'Website Design',
-      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-      //   },
-      //   {
-      //     title: 'Collaboration',
-      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-      //   },
-      //   {
-      //     title: 'UI/UX Design',
-      //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit.',
-      //   },
-      // ],
-    }
+    return {}
   },
 }
 </script>
@@ -320,25 +290,25 @@ export default {
   font-family: 'Roboto';
 }
 .wrapper {
-  margin: 0 auto;
   max-width: 1400px;
-  padding-bottom: 80px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* header styles start */
-.header {
-  padding-bottom: 48px;
-}
+
 .header__wrapper {
-  padding-top: 34.5px;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items: flex-end;
   justify-content: space-between;
+  padding-top: 34.5px;
+  margin-bottom: 35px;
 }
 .header__logo {
   font-size: 27px;
   font-weight: 700;
+  margin: 10px;
 }
 .header__list {
   display: flex;
@@ -347,6 +317,7 @@ export default {
 .header__item {
   list-style-type: none;
   margin-right: 27.5px;
+  margin: 10px;
 }
 .header__item:last-child {
   margin-right: 0;
@@ -381,19 +352,18 @@ a {
 
 /* underHeader styles start */
 .underHeader__wrapper {
-  height: 800px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
 }
 .underHeader__left {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 85px;
-  width: 60%;
+  width: 692px;
+  margin: 70px 0 20px 0;
 }
 .underHeader__title {
-  width: 500px;
-  height: 50px;
+  max-width: 500px;
+  margin-bottom: 20px;
 }
 .underHeader__title-item {
   font-weight: 500;
@@ -401,17 +371,15 @@ a {
   line-height: 84px;
 }
 .underHeader__under-title-text {
-  max-width: 700px;
+  max-width: 650px;
 }
-.underHeader__left-logo {
-  margin-left: -70px;
-}
-.underHeader__right {
-  width: 25%;
-}
+/* .underHeader__left-logo {
+  max-width: 560px;
+  max-height: 670px;
+} */
 .underHeader__right-logo {
   width: 562px;
-  height: 681px;
+  max-width: 100%;
 }
 /* underHeader styles end */
 
@@ -421,15 +389,16 @@ a {
 }
 
 .main__title {
-  width: 1300px;
+  max-width: 1300px;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 150px;
 }
 .main__text-left {
-  width: 489px;
+  max-width: 489px;
+  padding-bottom: 15px;
 }
 .main__text-left-title {
   font-weight: 500;
@@ -437,7 +406,7 @@ a {
   line-height: 63px;
 }
 .main__text-right {
-  width: 450px;
+  max-width: 450px;
 }
 .main__text-right-title {
   font-weight: 400;
@@ -461,6 +430,7 @@ a {
   z-index: 1;
 }
 .main__list-elipseGreen {
+  max-width: 290px;
   top: 150px;
   left: 40px;
   position: absolute;
@@ -519,33 +489,33 @@ a {
   font-size: 18px;
   line-height: 26px;
 }
-/* .main__list-item {
-  width: 300px;
-  height: 344px;
-  border: 2px solid #e2e1e1;
-  border-radius: 10%;
-  margin-right: 16px;
-} */
-/* main styles end */
 
 /* underMain styles start */
+.underMain__wrapper {
+  max-width: 1215px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
 .underMain__first-part {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 150px;
 }
 .underMain__first-part-text-wrapper {
-  width: 558px;
-  margin-right: 92px;
+  width: 550px;
+  margin-bottom: 50px;
 }
-.underMain__first-part-main-text {
-  margin-bottom: 32px;
+.underMain__first-part-pic-item {
+  width: 564px;
+  max-width: 100%;
 }
 .underMain__first-part-main-text-item {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
-  margin-top: 100px;
+  margin-bottom: 30px;
 }
 .underMain__first-part-under-main-text-item {
   font-weight: 400;
@@ -556,11 +526,16 @@ a {
 .underMain__second-part {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.underMain__second-part-pic-item {
+  width: 564px;
+  max-width: 100%;
 }
 .underMain__second-part-text-wrapper {
-  width: 540px;
-  margin-left: 72px;
+  max-width: 550px;
+  margin-bottom: 50px;
 }
 .underMain__second-part-main-text {
   margin-bottom: 32px;
@@ -580,38 +555,49 @@ a {
 
 /* footer styles start */
 .footer__wrapper {
-  width: 100%;
-  height: 590px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
   background: linear-gradient(93.76deg, #c8e7d0 3.23%, #c6c0a6 98.45%);
   background-size: cover;
+  padding-bottom: 80px;
 }
 .footer__title {
-  width: 600px;
-  margin: 0 auto;
   padding-top: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .footer__title-main {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
+  margin-bottom: 20px;
 }
 .footer__title-under-main {
-  width: 560px;
+  max-width: 560px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
 }
 .footer__nav {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-top: 90px;
 }
 .footer__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 285px);
+  grid-column-gap: 170px;
+  align-items: center;
+  justify-content: center;
   list-style-type: none;
+}
+.footer__list-item {
+  text-align: center;
 }
 .footer__pic {
   height: 70px;
@@ -626,7 +612,7 @@ a {
   padding-bottom: 16px;
 }
 .footer__link {
-  width: 290px;
+  max-width: 290px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
