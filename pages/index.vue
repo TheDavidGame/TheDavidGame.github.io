@@ -1,286 +1,326 @@
 <template>
-  <div class="body">
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__wrapper">
-          <div class="header__logo">
-            <a href="#!" class="header__logoLink">SRstudio</a>
-          </div>
+  <div>
+    <head>
+      <title>developer portfolio</title>
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="../static/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="../static/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="../static/favicon-16x16.png"
+      />
+      <link rel="manifest" href="../static/site.webmanifest" />
+      <link
+        rel="mask-icon"
+        href="../static/safari-pinned-tab.svg"
+        color="#5bbad5"
+      />
+      <link rel="shortcut icon" href="../static/favicon.ico" />
+      <meta name="msapplication-TileColor" content="#2b5797" />
+      <meta name="msapplication-config" content="../static/browserconfig.xml" />
+      <meta name="theme-color" content="#ffffff" />
+    </head>
+    <div class="body">
+      <div class="wrapper">
+        <header class="header">
+          <div class="header__wrapper">
+            <div class="header__logo">
+              <a href="#!" class="header__logoLink">SRstudio</a>
+            </div>
 
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li class="header__item">
-                <a href="#!" class="header__link">Brands </a>
-              </li>
-              <li class="header__item">
-                <a href="#!" class="header__link">How it works </a>
-              </li>
-              <li class="header__item">
-                <a href="#!" class="header__link">Influencers </a>
-              </li>
-              <li class="header__item">
-                <button class="header__link header__link-button">
-                  Get Started
-                </button>
-              </li>
-            </ul>
-            <div @click="menuCloseItem()" class="header__nav-close">
-              <span class="header__nav-close-line"></span>
-              <span class="header__nav-close-line"></span>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a v-smooth-scroll href="#aboutMe" class="header__link"
+                    >About me
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a v-smooth-scroll href="#projects" class="header__link"
+                    >Projects
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a v-smooth-scroll href="#videos" class="header__link"
+                    >Videos
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a v-smooth-scroll href="#contacts" class="header__link"
+                    >Contacts
+                  </a>
+                </li>
+              </ul>
+              <div class="header__nav-close" @click="menuCloseItem()">
+                <span class="header__nav-close-line"></span>
+                <span class="header__nav-close-line"></span>
+              </div>
+            </nav>
+            <div class="header__burger burger" @click="burgerHandler()">
+              <span class="burger__line burger__line_first"> </span>
+              <span class="burger__line burger__line_second"> </span>
+              <span class="burger__line burger__line_third"> </span>
             </div>
-          </nav>
-          <div @click="burgerHandler()" class="header__burger burger">
-            <span class="burger__line burger__line_first"> </span>
-            <span class="burger__line burger__line_second"> </span>
-            <span class="burger__line burger__line_third"> </span>
           </div>
-        </div>
-      </header>
-      <div class="underHeader">
-        <div class="underHeader__wrapper">
-          <div class="underHeader__left">
-            <div class="underHeader__title">
-              <h1 class="underHeader__title-item">
-                A digital
-                <span style="color: rgba(91, 193, 128, 1)">Product</span>
-                Design
-              </h1>
-            </div>
-            <div class="underHeader__under-title">
-              <p class="underHeader__under-title-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere
-                nunc augue cras curabitur amet. Bibendum ultrices sit eros, odio
-                turpis congue.
-              </p>
-              <!-- <img
+        </header>
+        <div id="aboutMe" class="underHeader">
+          <div class="underHeader__wrapper">
+            <div class="underHeader__left">
+              <div class="underHeader__title">
+                <h1 class="underHeader__title-item">
+                  A digital
+                  <span style="color: rgba(91, 193, 128, 1)">Product</span>
+                  Design
+                </h1>
+              </div>
+              <div class="underHeader__under-title">
+                <p class="underHeader__under-title-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Posuere nunc augue cras curabitur amet. Bibendum ultrices sit
+                  eros, odio turpis congue.
+                </p>
+                <!-- <img
                 src="../static/underHeader__left.svg"
                 alt="logoLeftUnderHeader"
                 class="underHeader__left-logo"
               /> -->
+              </div>
+            </div>
+            <div class="underHeader__right">
+              <img
+                src="../static/underHeader__right.svg"
+                alt="logoRightUnderHeader"
+                class="underHeader__right-logo"
+              />
             </div>
           </div>
-          <div class="underHeader__right">
-            <img
-              src="../static/underHeader__right.svg"
-              alt="logoRightUnderHeader"
-              class="underHeader__right-logo"
-            />
+        </div>
+        <main id="projects" class="main">
+          <div class="main__wrapper">
+            <div class="main__title">
+              <div class="main__text-left">
+                <p class="main__text-left-title">
+                  We have dedicated designers on these
+                </p>
+              </div>
+              <div class="main__text-right">
+                <p class="main__text-right-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus massa viverra cursus ac pretium turpis. Ut in lorem
+                  volutpat sed dolor dolor eu felis.
+                </p>
+              </div>
+            </div>
+            <ul class="main__list">
+              <div class="main__list-cards">
+                <img
+                  src="../static/elipseOrange.svg"
+                  alt="elipseOrange"
+                  class="main__list-elipseOrange"
+                />
+                <div class="main__list-card">
+                  <div class="main__list-pic">
+                    <img
+                      src="../static/visualIdentity.svg"
+                      alt="visualIdentity"
+                      class="main__list-pic-item"
+                    />
+                  </div>
+                  <div class="main__list-title1">
+                    <p class="main__list-title-item">Visual Identity</p>
+                  </div>
+                  <div class="main__list-text">
+                    <p class="main__list-text-item">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="../static/elipseGreen.svg"
+                  alt="elipseGreen"
+                  class="main__list-elipseGreen"
+                />
+                <div class="main__list-card">
+                  <div class="main__list-pic">
+                    <img
+                      src="../static/websiteDesign.svg"
+                      alt="websiteDesign"
+                      class="main__list-pic-item"
+                    />
+                  </div>
+                  <div class="main__list-title2">
+                    <p class="main__list-title-item">Website Design</p>
+                  </div>
+                  <div class="main__list-text">
+                    <p class="main__list-text-item">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="main__list-card">
+                  <div class="main__list-pic">
+                    <img
+                      src="../static/collaboration.svg"
+                      alt="collaboration"
+                      class="main__list-pic-item"
+                    />
+                  </div>
+                  <div class="main__list-title3">
+                    <p class="main__list-title-item">Collaboration</p>
+                  </div>
+                  <div class="main__list-text">
+                    <p class="main__list-text-item">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="main__list-card">
+                  <div class="main__list-pic">
+                    <img
+                      src="../static/uiUxDesign.svg"
+                      alt="uiUxDesign"
+                      class="main__list-pic-item"
+                    />
+                  </div>
+                  <div class="main__list-title4">
+                    <p class="main__list-title-item">UI/UX Design</p>
+                  </div>
+                  <div class="main__list-text">
+                    <p class="main__list-text-item">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </main>
+        <div id="videos" class="underMain">
+          <div class="underMain__wrapper">
+            <div class="underMain__first-part">
+              <div class="underMain__first-part-text-wrapper">
+                <div class="underMain__first-part-main-text">
+                  <p class="underMain__first-part-main-text-item">
+                    How can SRstudio help your business?
+                  </p>
+                </div>
+                <div class="underMain__first-part-under-main-text-item">
+                  <p style="margin-bottom: 35px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
+                    eget. Et morbi at interdum sapien. Interdum malesuada
+                    hendrerit tincidunt placerat
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
+                    eget.
+                  </p>
+                </div>
+              </div>
+              <div class="underMain__first-part-pic">
+                <img
+                  src="../static/underMain__firstPartPic.svg"
+                  alt="logoUnderMain__firstPartPic"
+                  class="underMain__first-part-pic-item"
+                />
+              </div>
+            </div>
+            <div class="underMain__second-part">
+              <div class="underMain__second-part-pic">
+                <img
+                  src="../static/underMain__secondPartPic.svg"
+                  alt="logoUnderMain__secondPartPic"
+                  class="underMain__second-part-pic-item"
+                />
+              </div>
+              <div class="underMain__second-part-text-wrapper">
+                <div class="underMain__second-part-main-text">
+                  <p class="underMain__second-part-main-text-item">
+                    Hello, we are SRstudio Creative
+                  </p>
+                </div>
+                <div class="underMain__secondt-part-under-main-text-item">
+                  <p style="margin-bottom: 35px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
+                    eget. Et morbi at interdum sapien. Interdum malesuada
+                    hendrerit tincidunt placerat
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
+                    eget.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <main class="main">
-        <div class="main__wrapper">
-          <div class="main__title">
-            <div class="main__text-left">
-              <p class="main__text-left-title">
-                We have dedicated designers on these
-              </p>
+      <footer id="contacts" class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__title">
+            <div class="footer__title-main">
+              <p>To Get More Information</p>
             </div>
-            <div class="main__text-right">
-              <p class="main__text-right-title">
+            <div class="footer__title-under-main">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Faucibus massa viverra cursus ac pretium turpis. Ut in lorem
-                volutpat sed dolor dolor eu felis.
+                Molestie in cursus eget interdum sed arcu nec, donec nibh.
               </p>
             </div>
           </div>
-          <ul class="main__list">
-            <div class="main__list-cards">
-              <img
-                src="../static/elipseOrange.svg"
-                alt="elipseOrange"
-                class="main__list-elipseOrange"
-              />
-              <div class="main__list-card">
-                <div class="main__list-pic">
-                  <img
-                    src="../static/visualIdentity.svg"
-                    alt="visualIdentity"
-                    class="main__list-pic-item"
-                  />
-                </div>
-                <div class="main__list-title1">
-                  <p class="main__list-title-item">Visual Identity</p>
-                </div>
-                <div class="main__list-text">
-                  <p class="main__list-text-item">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    adipiscing elit.
-                  </p>
-                </div>
-              </div>
-              <img
-                src="../static/elipseGreen.svg"
-                alt="elipseGreen"
-                class="main__list-elipseGreen"
-              />
-              <div class="main__list-card">
-                <div class="main__list-pic">
-                  <img
-                    src="../static/websiteDesign.svg"
-                    alt="websiteDesign"
-                    class="main__list-pic-item"
-                  />
-                </div>
-                <div class="main__list-title2">
-                  <p class="main__list-title-item">Website Design</p>
-                </div>
-                <div class="main__list-text">
-                  <p class="main__list-text-item">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    adipiscing elit.
-                  </p>
-                </div>
-              </div>
-              <div class="main__list-card">
-                <div class="main__list-pic">
-                  <img
-                    src="../static/collaboration.svg"
-                    alt="collaboration"
-                    class="main__list-pic-item"
-                  />
-                </div>
-                <div class="main__list-title3">
-                  <p class="main__list-title-item">Collaboration</p>
-                </div>
-                <div class="main__list-text">
-                  <p class="main__list-text-item">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    adipiscing elit.
-                  </p>
-                </div>
-              </div>
-              <div class="main__list-card">
-                <div class="main__list-pic">
-                  <img
-                    src="../static/uiUxDesign.svg"
-                    alt="uiUxDesign"
-                    class="main__list-pic-item"
-                  />
-                </div>
-                <div class="main__list-title4">
-                  <p class="main__list-title-item">UI/UX Design</p>
-                </div>
-                <div class="main__list-text">
-                  <p class="main__list-text-item">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    adipiscing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </ul>
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="../static/gmail.svg"
+                  alt="logoUnderMain__secondPartPic"
+                  class="footer__pic"
+                />
+                <p class="footer__text">Gmail</p>
+                <a href="#!" class="footer__link">vlados.billi@gmail.com</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="../static/github.svg"
+                  alt="logoUnderMain__secondPartPic"
+                  class="footer__pic"
+                />
+                <p class="footer__text">GitHub</p>
+                <a href="https://github.com/TheDavidGame" class="footer__link"
+                  >TheDavidGame</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="../static/telegram.svg"
+                  alt="logoUnderMain__secondPartPic"
+                  class="footer__pic"
+                />
+                <p class="footer__text">Telegram</p>
+                <a href="#!" class="footer__link">@TheDavidGame</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </main>
-      <div class="underMain">
-        <div class="underMain__wrapper">
-          <div class="underMain__first-part">
-            <div class="underMain__first-part-text-wrapper">
-              <div class="underMain__first-part-main-text">
-                <p class="underMain__first-part-main-text-item">
-                  How can SRstudio help your business?
-                </p>
-              </div>
-              <div class="underMain__first-part-under-main-text-item">
-                <p style="margin-bottom: 35px">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
-                  Et morbi at interdum sapien. Interdum malesuada hendrerit
-                  tincidunt placerat
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
-                </p>
-              </div>
-            </div>
-            <div class="underMain__first-part-pic">
-              <img
-                src="../static/underMain__firstPartPic.svg"
-                alt="logoUnderMain__firstPartPic"
-                class="underMain__first-part-pic-item"
-              />
-            </div>
-          </div>
-          <div class="underMain__second-part">
-            <div class="underMain__second-part-pic">
-              <img
-                src="../static/underMain__secondPartPic.svg"
-                alt="logoUnderMain__secondPartPic"
-                class="underMain__second-part-pic-item"
-              />
-            </div>
-            <div class="underMain__second-part-text-wrapper">
-              <div class="underMain__second-part-main-text">
-                <p class="underMain__second-part-main-text-item">
-                  Hello, we are SRstudio Creative
-                </p>
-              </div>
-              <div class="underMain__secondt-part-under-main-text-item">
-                <p style="margin-bottom: 35px">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
-                  Et morbi at interdum sapien. Interdum malesuada hendrerit
-                  tincidunt placerat
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-                  neque elementum nunc nunc. Etiam ridiculus libero lorem eget.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </footer>
     </div>
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <div class="footer__title">
-          <div class="footer__title-main">
-            <p>To Get More Information</p>
-          </div>
-          <div class="footer__title-under-main">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
-              in cursus eget interdum sed arcu nec, donec nibh.
-            </p>
-          </div>
-        </div>
-        <nav class="footer__nav">
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <img
-                src="../static/gmail.svg"
-                alt="logoUnderMain__secondPartPic"
-                class="footer__pic"
-              />
-              <p class="footer__text">Gmail</p>
-              <a href="#!" class="footer__link">vlados.billi@gmail.com</a>
-            </li>
-            <li class="footer__list-item">
-              <img
-                src="../static/github.svg"
-                alt="logoUnderMain__secondPartPic"
-                class="footer__pic"
-              />
-              <p class="footer__text">GitHub</p>
-              <a href="https://github.com/TheDavidGame" class="footer__link"
-                >TheDavidGame</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <img
-                src="../static/telegram.svg"
-                alt="logoUnderMain__secondPartPic"
-                class="footer__pic"
-              />
-              <p class="footer__text">Telegram</p>
-              <a href="#!" class="footer__link">@TheDavidGame</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -293,6 +333,12 @@ export default {
   methods: {
     burgerHandler() {
       const menu = document.querySelector('.header__nav')
+      const menuLinks = document.querySelectorAll('.header__link')
+      for (let i = 0; i < menuLinks.length; i++) {
+        menuLinks[i].addEventListener('click', () => {
+          menu.classList.remove('header__nav_active')
+        })
+      }
       menu.classList.add('header__nav_active')
     },
     menuCloseItem() {
@@ -326,9 +372,16 @@ export default {
   background-color: #f8f7f786;
 }
 .header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 20.5px;
 }
@@ -338,7 +391,10 @@ export default {
   margin: 10px;
 }
 .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .header__item {
@@ -367,15 +423,6 @@ a {
 .header__onlineHelp:active {
   opacity: 0.75;
 }
-.header__link-button {
-  margin-top: -81px;
-  color: white;
-  background: #ff7900;
-  border-radius: 10px;
-  width: 120px;
-  height: 40px;
-}
-
 .header__burger {
   display: none;
   width: 40px;
@@ -396,6 +443,8 @@ a {
 }
 .burger__line_second {
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .burger__line_third {
@@ -405,8 +454,13 @@ a {
 
 /* underHeader styles start */
 .underHeader__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 100px;
   margin-bottom: 70px;
@@ -444,9 +498,16 @@ a {
 
 .main__title {
   max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 150px;
 }
@@ -473,6 +534,7 @@ a {
   position: relative;
 }
 .main__list-cards {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   grid-column-gap: 16px;
@@ -491,10 +553,12 @@ a {
   z-index: 1;
 }
 .main__list-card {
+  -ms-grid-column-span: 1;
   grid-column: span 1;
   height: 344px;
   background: #ffffff;
   border: 2px solid #e2e1e1;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 42px 10px 10px 33px;
@@ -551,9 +615,16 @@ a {
   margin-bottom: 60px;
 }
 .underMain__first-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 150px;
 }
@@ -576,11 +647,17 @@ a {
   font-size: 18px;
   line-height: 21px;
 }
-
 .underMain__second-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .underMain__second-part-pic-item {
@@ -613,15 +690,25 @@ a {
   max-height: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  background: -o-linear-gradient(356.24deg, #c8e7d0 3.23%, #c6c0a6 98.45%);
   background: linear-gradient(93.76deg, #c8e7d0 3.23%, #c6c0a6 98.45%);
   background-size: cover;
   padding-bottom: 80px;
 }
 .footer__title {
   padding-top: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
@@ -643,10 +730,15 @@ a {
   padding-top: 90px;
 }
 .footer__list {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill, 285px);
   grid-column-gap: 170px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   list-style-type: none;
 }
@@ -691,11 +783,17 @@ a {
     left: 0;
     background: #dcf2f1;
     z-index: 10;
-    padding: 75px;
+    padding: 20px;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
     transform: translateX(100%);
+    -webkit-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
     transition: 0.2s all linear;
   }
   .header__nav_active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
     transform: translateX(0);
   }
   .header__item {
@@ -709,14 +807,6 @@ a {
   .header__link {
     font-size: 42px;
     line-height: 48px;
-  }
-  .header__link-button {
-    margin-top: 0;
-    color: white;
-    background: #ff7900;
-    border-radius: 10px;
-    width: 400px;
-    height: 80px;
   }
   .header__nav-close {
     width: 40px;
@@ -735,9 +825,13 @@ a {
     top: 50%;
   }
   .header__nav-close-line:first-child {
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
     transform: translateY(-50%) rotate(45deg);
   }
   .header__nav-close-line:last-child {
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    -ms-transform: translateY(-50%) rotate(-45deg);
     transform: translateY(-50%) rotate(-45deg);
   }
 }
