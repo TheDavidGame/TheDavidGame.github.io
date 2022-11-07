@@ -35,7 +35,7 @@
         <header class="header">
           <div class="header__wrapper">
             <div class="header__logo">
-              <a href="#!" class="header__logoLink">SRstudio</a>
+              <a href="#!" class="header__logoLink">Developer portfolio</a>
             </div>
 
             <nav class="header__nav">
@@ -56,7 +56,10 @@
                   </a>
                 </li>
                 <li class="header__item">
-                  <a v-smooth-scroll href="#contacts" class="header__link"
+                  <a
+                    v-smooth-scroll
+                    href="#contacts"
+                    class="header__link-item header__link"
                     >Contacts
                   </a>
                 </li>
@@ -78,22 +81,49 @@
             <div class="underHeader__left">
               <div class="underHeader__title">
                 <h1 class="underHeader__title-item">
-                  A digital
-                  <span style="color: rgba(91, 193, 128, 1)">Product</span>
-                  Design
+                  <span class="underHeader__title-item-top">Bilichenko</span>
+                  <div class="underHeader__title-item-line"></div>
+                  <span class="underHeader__title-item-bot">Vladislav</span>
                 </h1>
               </div>
               <div class="underHeader__under-title">
-                <p class="underHeader__under-title-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Posuere nunc augue cras curabitur amet. Bibendum ultrices sit
-                  eros, odio turpis congue.
-                </p>
-                <!-- <img
-                src="../static/underHeader__left.svg"
-                alt="logoLeftUnderHeader"
-                class="underHeader__left-logo"
-              /> -->
+                <img
+                  src="../static/underHeader_under-title-pic.svg"
+                  alt="logoLeftUnderHeader"
+                  class="underHeader_under-title-pic"
+                />
+                <p class="underHeader__under-title-text">Skills</p>
+
+                <div class="underHeader__skills-wrapper">
+                  <p class="underHeader__skills-item">
+                    HTML5, CSS3, VUE JS, NUXT JS, JS
+                  </p>
+                  <div class="underHeader__skills-containter">
+                    <div class="underHeader__skills-line first"></div>
+                  </div>
+                  <p class="underHeader__skills-item">
+                    vuex, axios, vue router, axios, i18n
+                  </p>
+                  <div class="underHeader__skills-containter">
+                    <div class="underHeader__skills-line second"></div>
+                  </div>
+                  <p class="underHeader__skills-item">
+                    Bootstrap, Vuetify, Tailwind
+                  </p>
+                  <div class="underHeader__skills-containter">
+                    <div class="underHeader__skills-line third"></div>
+                  </div>
+                  <p class="underHeader__skills-item">YouTrack, Git, Figma</p>
+                  <div class="underHeader__skills-containter">
+                    <div class="underHeader__skills-line fourth"></div>
+                  </div>
+                  <p class="underHeader__skills-item">
+                    npm, Rest API, API Yandex map
+                  </p>
+                  <div class="underHeader__skills-containter">
+                    <div class="underHeader__skills-line fifth"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="underHeader__right">
@@ -107,20 +137,6 @@
         </div>
         <main id="projects" class="main">
           <div class="main__wrapper">
-            <div class="main__title">
-              <div class="main__text-left">
-                <p class="main__text-left-title">
-                  We have dedicated designers on these
-                </p>
-              </div>
-              <div class="main__text-right">
-                <p class="main__text-right-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Faucibus massa viverra cursus ac pretium turpis. Ut in lorem
-                  volutpat sed dolor dolor eu felis.
-                </p>
-              </div>
-            </div>
             <ul class="main__list">
               <div class="main__list-cards">
                 <img
@@ -368,20 +384,13 @@ export default {
   width: 100%;
   padding-bottom: 10px;
   z-index: 999;
-  padding: 0 8px;
+  padding: 0 15px;
   background-color: #f8f7f786;
 }
 .header__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 20.5px;
 }
@@ -391,20 +400,17 @@ export default {
   margin: 10px;
 }
 .header__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .header__item {
   list-style-type: none;
-  margin-right: 27.5px;
-  margin: 10px;
+  margin-right: 45px;
 }
 .header__item:last-child {
   margin-right: 0;
 }
+
 a {
   color: #000 !important;
   text-decoration: none;
@@ -412,6 +418,11 @@ a {
 .header__link {
   font-size: 18px;
   line-height: 21px;
+}
+.header__link-item {
+  padding: 3px;
+  background: #ff9a3f;
+  border-radius: 25%;
 }
 .header__link:hover,
 .header__link:focus,
@@ -465,26 +476,100 @@ a {
   padding-top: 100px;
   margin-bottom: 70px;
 }
+.fontFamilyFutura {
+  font-family: 'Futura';
+}
 .underHeader__left {
   width: 560px;
   margin: 70px 0 20px 0;
 }
 .underHeader__title {
-  max-width: 500px;
-  margin-bottom: 20px;
+  max-width: 350px;
+  margin-bottom: 80px;
 }
 .underHeader__title-item {
   font-weight: 500;
   font-size: 72px;
   line-height: 84px;
 }
-.underHeader__under-title-text {
-  max-width: 650px;
+.underHeader__title-item-top {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 96px;
+  color: #696969;
 }
-/* .underHeader__left-logo {
-  max-width: 560px;
-  max-height: 670px;
+.underHeader__title-item-bot {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 96px;
+  color: #5bc180;
+  margin-left: 25px;
+}
+.underHeader__title-item-line {
+  border-bottom: 2px solid #696969;
+}
+.underHeader__under-title {
+  position: relative;
+}
+.underHeader_under-title-pic {
+  position: absolute;
+  top: -35px;
+  left: -30px;
+  z-index: 0;
+}
+
+.underHeader__under-title-text {
+  position: relative;
+  max-width: 650px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 26px;
+  color: #696969;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+/* .underHeader__skills {
 } */
+.underHeader__skills-item {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.underHeader__skills-containter {
+  width: 80%;
+  height: 20px;
+  padding: 5px 0px 16px 5px;
+  background-color: #ddd;
+}
+.underHeader__skills-line {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 20px;
+  height: 12px;
+}
+.first {
+  width: 75%;
+  background: #5bc180;
+}
+.second {
+  width: 76%;
+  background: #5bc180;
+}
+.third {
+  width: 82%;
+  background: #5bc180;
+}
+.fourth {
+  width: 80%;
+  background: #5bc180;
+}
+.fifth {
+  width: 79%;
+  background: #5bc180;
+}
 .underHeader__right-logo {
   width: 562px;
   max-width: 100%;
@@ -496,38 +581,6 @@ a {
   margin-bottom: 160px;
 }
 
-.main__title {
-  max-width: 1300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-bottom: 150px;
-}
-.main__text-left {
-  max-width: 489px;
-  padding-bottom: 15px;
-}
-.main__text-left-title {
-  font-weight: 500;
-  font-size: 54px;
-  line-height: 63px;
-}
-.main__text-right {
-  max-width: 450px;
-}
-.main__text-right-title {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-}
 .main__list {
   max-width: 1250px;
   margin: 0 auto;
