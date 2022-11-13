@@ -256,7 +256,150 @@
         </main>
         <div id="videos" class="underMain">
           <div class="underMain__wrapper">
-            <div class="underMain__first-part">
+            <div class="underMain__title">
+              <span class="underMain__title-left"></span>
+              <p class="underMain__title-text">My Projects</p>
+              <span class="underMain__title-right"></span>
+            </div>
+            <div class="underMain__underTitle">
+              <p class="underMain__underTitle-topText">Technologies used:</p>
+              <p class="underMain__underTitle-botText">
+                Nuxt js, Vuetify, Git, JavaScript, ESLint и Prettier, БЭМ, API
+                Яндекс карт, Figma
+              </p>
+            </div>
+            <div class="underMain__learningPortal">
+              <div class="underMain__learningPortal-title">
+                <p class="underMain__learningPortal-title-text">
+                  Межъязыковой портал для обучения
+                </p>
+              </div>
+              <div class="underMain__learningPortal-underTitle">
+                <p class="underMain__learningPortal-underTitle-text">
+                  Вёрстка межъязыкового портала для обучения(Студенты или
+                  школьники смогут найти преподавателей или репетиторов) с
+                  использованием Nuxt js, Vuetify
+                </p>
+              </div>
+              <div class="underMain__learningPortal-main">
+                <div class="underMain__learningPortal-main-left">
+                  <div class="underMain__learningPortal-main-left-list">
+                    <ul>
+                      <li>
+                        Верстка сайтов c использованием фреймворка Nuxt js на
+                        основе ТЗ
+                      </li>
+                      <li>
+                        Проект сделан на 3-х языках: Русский, Английский и Иврит
+                      </li>
+                      <li>Рефакторинг кода</li>
+                      <li>Тестирование и доработка приложения</li>
+                      <li>Коммерческая разработка</li>
+                      <li>Опыт работы с заказчиком</li>
+                      <li>Создание панели администрации</li>
+                      <li>Разработка многоязычного сайта</li>
+                      <li>Работа велась с использованием Git</li>
+                      <li>Работа в команде</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="underMain__learningPortal-main-right">
+                  <img
+                    src="../static/underMain__learningPortal.png"
+                    alt="logoLearningPortal"
+                    class="underMain__learningPortal-right-logo"
+                  />
+                </div>
+                <div class="circleGreen-learningPortal">
+                  <img
+                    src="../static/circleGreen__learningPortal.svg"
+                    alt="circleGreen_learningPortal"
+                    class="circleGreen__learningPortal"
+                  />
+                </div>
+                <div class="circleBlue-learningPortal">
+                  <img
+                    src="../static/cirlceBlue__learningPortal.svg"
+                    alt="cirlceBlue__learningPortal"
+                    class="cirlceBlue__learningPortal"
+                  />
+                </div>
+              </div>
+              <div class="underMain__learningPortal-footer">
+                <a
+                  href="https://github.com/TheDavidGame/online-education-service"
+                  class="underMain__learningPortal-footer-text"
+                  >ССЫЛКА НА ИСХОДНИКИ</a
+                >
+              </div>
+            </div>
+
+            <div class="underMain__hockeyPortal">
+              <div class="underMain__hockeyPortal-title">
+                <p class="underMain__hockeyPortal-title-text">
+                  Хоккейный портал
+                </p>
+              </div>
+              <div class="underMain__hockeyPortal-underTitle">
+                <p class="underMain__hockeyPortal-underTitle-text">
+                  Верстка хоккейного портала c использованием фреймворка Vue js
+                  на основе макетов в Figma;
+                </p>
+              </div>
+              <div class="underMain__hockeyPortal-main">
+                <div class="underMain__hockeyPortal-main-left">
+                  <img
+                    src="../static/underMain__hockeyPortal.svg"
+                    alt="hockeyPortal"
+                    class="underMain__hockeyPortal-left-logo"
+                  />
+                </div>
+                <div class="underMain__hockeyPortal-main-right">
+                  <div class="underMain__hockeyPortal-main-right-list">
+                    <ul>
+                      <li>Рефакторинг кода</li>
+                      <li>Исправление ошибок на проекте и его оптимизация</li>
+                      <li>Тестирование и доработка приложения</li>
+                      <li>Разработка и правка компонентов</li>
+                      <li>Детальное изучение API - Яндекс карт</li>
+                      <li>Работа в команде</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="underMain__hockeyPortal-footer">
+                <a href="#!" class="underMain__hockeyPortal-footer-text"
+                  >ССЫЛКА НА ИСХОДНИКИ</a
+                >
+              </div>
+            </div>
+
+            <div class="underMain__myBusiness">
+              <div class="underMain__myBusiness-title">
+                <p class="underMain__myBusiness-title-text">Мой бизнес</p>
+              </div>
+              <div class="underMain__myBusiness-underTitle">
+                <p class="underMain__myBusiness-underTitle-text">
+                  Макет компании, проект сделан на Vue.js с использованием БЭМ и
+                  Tailwind
+                </p>
+              </div>
+              <div class="underMain__myBusiness-main">
+                <div class="underMain__myBusiness-main-wrapper">
+                  <img
+                    src="../static/underMain__myBusiness-logo.svg"
+                    alt="myBusiness"
+                    class="underMain__myBusiness-logo"
+                  />
+                </div>
+              </div>
+              <div class="underMain__myBusiness-footer">
+                <a href="#!" class="underMain__myBusiness-footer-text"
+                  >ССЫЛКА НА ИСХОДНИКИ</a
+                >
+              </div>
+            </div>
+            <!-- <div class="underMain__first-part">
               <div class="underMain__first-part-text-wrapper">
                 <div class="underMain__first-part-main-text">
                   <p class="underMain__first-part-main-text-item">
@@ -313,7 +456,48 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="videos">
+          <div class="videos__title">
+            <p class="videos__title-top">
+              Презентация проекта межъязыкового портала для обучения
+            </p>
+            <p class="videos__title-bot">
+              В этом видео показан функционал и стиль учебного портала
+            </p>
+          </div>
+          <div class="videos__wrapper">
+            <div class="videos__item"></div>
+            <iframe
+              class="videos__elem"
+              src="https://www.youtube.com/embed/CdFX8uX-ENo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="description">
+          <div class="description-aboutMe">
+            <p class="description-aboutMe-item">
+              Я постоянно слежу за инновациями в сфере веб разработки и стараюсь
+              держать себя в профессиональном тонусе. Эффективно организовываю
+              свою работу и грамотно распоряжаюсь временем. Слежу за качеством и
+              чистотой кода. Быстро гуглю и нахожу полезную информацию. Очень
+              нравится общаться с коллегами, делиться опытом, передавать и
+              получать новые знания
+            </p>
+          </div>
+          <div class="description-potfolio">
+            <p class="description-potfolio-item">
+              Портфолио было написано на Nuxt js с использованием БЭМ и Vuetify
+              <br />
+              <a href="">Ссылка на исходный код</a>
+            </p>
           </div>
         </div>
       </div>
@@ -321,12 +505,11 @@
         <div class="footer__wrapper">
           <div class="footer__title">
             <div class="footer__title-main">
-              <p>To Get More Information</p>
+              <p>Мои контакты</p>
             </div>
             <div class="footer__title-under-main">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Molestie in cursus eget interdum sed arcu nec, donec nibh.
+                Пишите или звоните, буду рад обсудить с вами мою кандидатуру.
               </p>
             </div>
           </div>
@@ -414,7 +597,7 @@ export default {
   padding-bottom: 10px;
   z-index: 999;
   padding: 0 15px;
-  background-color: #f8f7f786;
+  background-color: #d9d9d98e;
 }
 .header__wrapper {
   display: flex;
@@ -748,11 +931,325 @@ a {
 
 /* underMain styles start */
 .underMain__wrapper {
-  max-width: 1215px;
+  max-width: 1300px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.underMain__first-part {
+.underMain__title {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.underMain__title-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 86px;
+  color: #696969;
+}
+.underMain__title-left {
+  width: 420px;
+  height: 14px;
+  background: #9cffc4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px;
+}
+.underMain__title-right {
+  width: 420px;
+  height: 14px;
+  background: #9cffc4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0px;
+}
+.underMain__underTitle {
+  text-align: center;
+  padding: 15px;
+  width: 365px;
+  height: 116px;
+  background: #c0b6ff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 0 auto 40px;
+}
+.underMain__underTitle-topText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.underMain__underTitle-botText {
+  font-style: normal;
+  line-height: 26px;
+}
+.underMain__learningPortal {
+  width: 970px;
+  height: 670px;
+  border: 2px solid #bab8b8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0 auto 50px;
+}
+.underMain__learningPortal-title {
+  width: 351px;
+  height: 35px;
+  padding: 6px;
+  background: #c0b6ff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.underMain__learningPortal-title-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #254ba8;
+}
+.underMain__learningPortal-underTitle {
+  width: 760px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+.underMain__learningPortal-underTitle-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+.underMain__learningPortal-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+.underMain__learningPortal-main-left-list {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 35px;
+}
+.underMain__learningPortal-main-right {
+  z-index: 2;
+}
+
+.underMain__learningPortal-right-logo {
+  width: 426px;
+  height: 270px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+}
+.circleGreen__learningPortal {
+  position: absolute;
+  top: -52px;
+  right: 10px;
+  z-index: 1;
+}
+.cirlceBlue__learningPortal {
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  z-index: 1;
+}
+.underMain__learningPortal-footer {
+  width: 224px;
+  margin: 30px auto;
+}
+.underMain__learningPortal-footer-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.underMain__hockeyPortal {
+  width: 970px;
+  height: 670px;
+  border: 2px solid #bab8b8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0 auto 50px;
+}
+.underMain__hockeyPortal-title {
+  width: 175px;
+  height: 30px;
+  padding: 6px;
+  background: #b6fffb;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 20px auto 80px;
+}
+.underMain__hockeyPortal-title-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #254ba8;
+}
+.underMain__hockeyPortal-underTitle {
+  width: 760px;
+  text-align: center;
+  margin: 0 auto 80px;
+}
+.underMain__hockeyPortal-underTitle-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+.underMain__hockeyPortal-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  margin-bottom: 60px;
+}
+
+.underMain__hockeyPortal-left-logo {
+  width: 426px;
+  height: 270px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+}
+.underMain__hockeyPortal-main-right {
+  margin-left: 80px;
+}
+.underMain__hockeyPortal-main-right-list {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.underMain__hockeyPortal-footer {
+  width: 224px;
+  margin: 30px auto;
+}
+.underMain__hockeyPortal-footer-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.underMain__myBusiness {
+  width: 970px;
+  height: 670px;
+  border: 2px solid #bab8b8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0 auto 200px;
+}
+.underMain__myBusiness-title {
+  width: 112px;
+  height: 30px;
+  padding: 6px;
+  background: #ffb6b6;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 20px auto 80px;
+}
+.underMain__myBusiness-title-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #254ba8;
+}
+.underMain__myBusiness-underTitle {
+  width: 760px;
+  text-align: center;
+  margin: 0 auto 80px;
+}
+.underMain__myBusiness-underTitle-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+.underMain__myBusiness-main {
+  padding: 0 60px;
+  margin-bottom: 60px;
+}
+.underMain__myBusiness-logo {
+  width: 430px;
+  display: block;
+  margin: 0 auto;
+}
+.underMain__myBusiness-footer {
+  width: 224px;
+  margin: 30px auto;
+}
+.underMain__myBusiness-footer-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.videos {
+  width: 100%;
+  margin-bottom: 150px;
+}
+.videos__title {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.videos__title-top {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 63px;
+  margin: 0 auto 60px;
+}
+.videos__title-bot {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 600px;
+  margin: 0 auto 80px;
+}
+.videos__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+.videos__item {
+  padding-top: 56.25%;
+}
+.videos__elem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  max-width: 1000px;
+  margin: 0 auto 100px;
+  text-align: center;
+  align-items: center;
+}
+
+.description-aboutMe-item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+}
+.description-potfolio-item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* .underMain__first-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +1316,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-}
+} */
 /* underMain styles end */
 
 /* footer styles start */
