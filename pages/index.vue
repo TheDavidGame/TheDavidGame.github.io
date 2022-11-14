@@ -135,7 +135,7 @@
             </div>
           </div>
         </div>
-        <main id="projects" class="main">
+        <main class="main">
           <div class="main__wrapper">
             <div class="main__line"></div>
             <div class="main__circle firstCircle"></div>
@@ -166,95 +166,9 @@
                 </p>
               </div>
             </div>
-            <!-- <ul class="main__list">
-              <div class="main__list-cards">
-                <img
-                  src="../static/elipseOrange.svg"
-                  alt="elipseOrange"
-                  class="main__list-elipseOrange"
-                />
-                <div class="main__list-card">
-                  <div class="main__list-pic">
-                    <img
-                      src="../static/visualIdentity.svg"
-                      alt="visualIdentity"
-                      class="main__list-pic-item"
-                    />
-                  </div>
-                  <div class="main__list-title1">
-                    <p class="main__list-title-item">Visual Identity</p>
-                  </div>
-                  <div class="main__list-text">
-                    <p class="main__list-text-item">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <img
-                  src="../static/elipseGreen.svg"
-                  alt="elipseGreen"
-                  class="main__list-elipseGreen"
-                />
-                <div class="main__list-card">
-                  <div class="main__list-pic">
-                    <img
-                      src="../static/websiteDesign.svg"
-                      alt="websiteDesign"
-                      class="main__list-pic-item"
-                    />
-                  </div>
-                  <div class="main__list-title2">
-                    <p class="main__list-title-item">Website Design</p>
-                  </div>
-                  <div class="main__list-text">
-                    <p class="main__list-text-item">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div class="main__list-card">
-                  <div class="main__list-pic">
-                    <img
-                      src="../static/collaboration.svg"
-                      alt="collaboration"
-                      class="main__list-pic-item"
-                    />
-                  </div>
-                  <div class="main__list-title3">
-                    <p class="main__list-title-item">Collaboration</p>
-                  </div>
-                  <div class="main__list-text">
-                    <p class="main__list-text-item">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div class="main__list-card">
-                  <div class="main__list-pic">
-                    <img
-                      src="../static/uiUxDesign.svg"
-                      alt="uiUxDesign"
-                      class="main__list-pic-item"
-                    />
-                  </div>
-                  <div class="main__list-title4">
-                    <p class="main__list-title-item">UI/UX Design</p>
-                  </div>
-                  <div class="main__list-text">
-                    <p class="main__list-text-item">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </ul> -->
           </div>
         </main>
-        <div id="videos" class="underMain">
+        <div id="projects" class="underMain">
           <div class="underMain__wrapper">
             <div class="underMain__title">
               <span class="underMain__title-left"></span>
@@ -367,11 +281,11 @@
                   </div>
                 </div>
               </div>
-              <div class="underMain__hockeyPortal-footer">
+              <!-- <div class="underMain__hockeyPortal-footer">
                 <a href="#!" class="underMain__hockeyPortal-footer-text"
                   >ССЫЛКА НА ИСХОДНИКИ</a
                 >
-              </div>
+              </div> -->
             </div>
 
             <div class="underMain__myBusiness">
@@ -387,81 +301,25 @@
               <div class="underMain__myBusiness-main">
                 <div class="underMain__myBusiness-main-wrapper">
                   <img
-                    src="../static/underMain__myBusiness-logo.svg"
+                    src="../static/underMain__myBusiness-logo.png"
                     alt="myBusiness"
                     class="underMain__myBusiness-logo"
                   />
                 </div>
               </div>
               <div class="underMain__myBusiness-footer">
-                <a href="#!" class="underMain__myBusiness-footer-text"
+                <a
+                  href="https://github.com/TheDavidGame/myBusiness"
+                  class="underMain__myBusiness-footer-text"
                   >ССЫЛКА НА ИСХОДНИКИ</a
                 >
               </div>
             </div>
-            <!-- <div class="underMain__first-part">
-              <div class="underMain__first-part-text-wrapper">
-                <div class="underMain__first-part-main-text">
-                  <p class="underMain__first-part-main-text-item">
-                    How can SRstudio help your business?
-                  </p>
-                </div>
-                <div class="underMain__first-part-under-main-text-item">
-                  <p style="margin-bottom: 35px">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
-                    eget. Et morbi at interdum sapien. Interdum malesuada
-                    hendrerit tincidunt placerat
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
-                    eget.
-                  </p>
-                </div>
-              </div>
-              <div class="underMain__first-part-pic">
-                <img
-                  src="../static/underMain__firstPartPic.svg"
-                  alt="logoUnderMain__firstPartPic"
-                  class="underMain__first-part-pic-item"
-                />
-              </div>
-            </div>
-            <div class="underMain__second-part">
-              <div class="underMain__second-part-pic">
-                <img
-                  src="../static/underMain__secondPartPic.svg"
-                  alt="logoUnderMain__secondPartPic"
-                  class="underMain__second-part-pic-item"
-                />
-              </div>
-              <div class="underMain__second-part-text-wrapper">
-                <div class="underMain__second-part-main-text">
-                  <p class="underMain__second-part-main-text-item">
-                    Hello, we are SRstudio Creative
-                  </p>
-                </div>
-                <div class="underMain__secondt-part-under-main-text-item">
-                  <p style="margin-bottom: 35px">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
-                    eget. Et morbi at interdum sapien. Interdum malesuada
-                    hendrerit tincidunt placerat
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Erat neque elementum nunc nunc. Etiam ridiculus libero lorem
-                    eget.
-                  </p>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
         <div class="videos">
           <div class="videos__title">
-            <p class="videos__title-top">
+            <p id="videos" class="videos__title-top">
               Презентация проекта межъязыкового портала для обучения
             </p>
             <p class="videos__title-bot">
@@ -585,7 +443,11 @@ export default {
 .wrapper {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 30px;
+}
+a {
+  color: #000 !important;
+  text-decoration: none;
 }
 
 /* header styles start */
@@ -618,15 +480,12 @@ export default {
 .header__item {
   list-style-type: none;
   margin-right: 45px;
+  margin-bottom: 10px;
 }
 .header__item:last-child {
   margin-right: 0;
 }
 
-a {
-  color: #000 !important;
-  text-decoration: none;
-}
 .header__link {
   font-size: 18px;
   line-height: 21px;
@@ -639,11 +498,6 @@ a {
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
-  opacity: 0.75;
-}
-.header__onlineHelp:hover,
-.header__onlineHelp:focus,
-.header__onlineHelp:active {
   opacity: 0.75;
 }
 .header__burger {
@@ -688,9 +542,6 @@ a {
   padding-top: 100px;
   margin-bottom: 70px;
 }
-.fontFamilyFutura {
-  font-family: 'Futura';
-}
 .underHeader__left {
   width: 560px;
   margin: 70px 0 20px 0;
@@ -705,6 +556,7 @@ a {
   line-height: 84px;
 }
 .underHeader__title-item-top {
+  font-family: 'Futura';
   font-style: normal;
   font-weight: 800;
   font-size: 72px;
@@ -712,6 +564,7 @@ a {
   color: #696969;
 }
 .underHeader__title-item-bot {
+  font-family: 'Futura';
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -728,13 +581,14 @@ a {
 .underHeader_under-title-pic {
   position: absolute;
   top: -35px;
-  left: -30px;
+  left: -25px;
   z-index: 0;
 }
 
 .underHeader__under-title-text {
   position: relative;
   max-width: 650px;
+  font-family: 'Futura';
   font-weight: 700;
   font-size: 54px;
   line-height: 26px;
@@ -742,8 +596,6 @@ a {
   z-index: 1;
   margin-bottom: 50px;
 }
-/* .underHeader__skills {
-} */
 .underHeader__skills-item {
   font-weight: 300;
   font-size: 25px;
@@ -785,6 +637,7 @@ a {
 .underHeader__right-logo {
   width: 562px;
   max-width: 100%;
+  margin: 0 auto;
 }
 /* underHeader styles end */
 
@@ -795,7 +648,7 @@ a {
 }
 .main__line {
   position: absolute;
-  height: 670px;
+  min-height: 670px;
   background: #59be7e;
   padding: 2px;
 }
@@ -835,10 +688,11 @@ a {
   margin-left: 80px;
 }
 .main__list-item {
-  width: 745px;
+  max-width: 745px;
   margin-bottom: 40px;
 }
 .main__list-item-title {
+  font-family: 'Futura';
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
@@ -849,85 +703,6 @@ a {
   font-size: 25px;
   line-height: 50px;
 }
-/* .main__list {
-  max-width: 1250px;
-  margin: 0 auto;
-  position: relative;
-}
-.main__list-cards {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  grid-column-gap: 16px;
-}
-.main__list-elipseOrange {
-  top: -50px;
-  left: -50px;
-  position: absolute;
-  z-index: 1;
-}
-.main__list-elipseGreen {
-  max-width: 290px;
-  top: 150px;
-  left: 40px;
-  position: absolute;
-  z-index: 1;
-}
-.main__list-card {
-  -ms-grid-column-span: 1;
-  grid-column: span 1;
-  height: 344px;
-  background: #ffffff;
-  border: 2px solid #e2e1e1;
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  padding: 42px 10px 10px 33px;
-  margin-bottom: 20px;
-  z-index: 2;
-}
-.main__list-pic {
-  margin-bottom: 16px;
-}
-.main__list-title1 {
-  width: 145px;
-  margin-bottom: 32px;
-  background: #b6fffb;
-  border-radius: 10px;
-}
-.main__list-title2 {
-  width: 145px;
-  margin-bottom: 32px;
-  background: #d3c4fb;
-  border-radius: 10px;
-}
-.main__list-title3 {
-  width: 145px;
-  margin-bottom: 32px;
-  background: #ffefb6;
-  border-radius: 10px;
-}
-.main__list-title4 {
-  width: 145px;
-  margin-bottom: 32px;
-  background: #b9ffb6;
-  border-radius: 10px;
-}
-.main__list-title-item {
-  padding: 8px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #254ba8;
-}
-.main__list-text {
-  margin-bottom: 32px;
-}
-.main__list-text-item {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-} */
 
 /* underMain styles start */
 .underMain__wrapper {
@@ -943,9 +718,13 @@ a {
   margin-bottom: 50px;
 }
 .underMain__title-text {
+  max-width: 604px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Futura';
   font-style: normal;
   font-weight: 500;
-  font-size: 65px;
+  font-size: 63px;
   line-height: 86px;
   color: #696969;
 }
@@ -966,8 +745,8 @@ a {
 .underMain__underTitle {
   text-align: center;
   padding: 15px;
-  width: 365px;
-  height: 116px;
+  max-width: 365px;
+  max-height: 126px;
   background: #c0b6ff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -985,16 +764,17 @@ a {
   line-height: 26px;
 }
 .underMain__learningPortal {
-  width: 970px;
-  height: 670px;
+  max-width: 970px;
+  width: 100%;
+  height: auto;
   border: 2px solid #bab8b8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   margin: 0 auto 50px;
 }
 .underMain__learningPortal-title {
-  width: 351px;
-  height: 35px;
+  max-width: 351px;
+  max-height: 55px;
   padding: 6px;
   background: #c0b6ff;
   box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
@@ -1004,12 +784,13 @@ a {
 .underMain__learningPortal-title-text {
   font-style: normal;
   font-weight: 700;
+  text-align: center;
   font-size: 18px;
   line-height: 21px;
   color: #254ba8;
 }
 .underMain__learningPortal-underTitle {
-  width: 760px;
+  max-width: 760px;
   text-align: center;
   margin: 0 auto 50px;
 }
@@ -1023,8 +804,14 @@ a {
   position: relative;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0 60px;
   margin-bottom: 20px;
+}
+.underMain__learningPortal-main-left {
+  max-width: 420px;
+  width: 100%;
+  z-index: 2;
 }
 .underMain__learningPortal-main-left-list {
   font-style: normal;
@@ -1033,14 +820,20 @@ a {
   line-height: 35px;
 }
 .underMain__learningPortal-main-right {
+  margin: auto;
   z-index: 2;
 }
 
 .underMain__learningPortal-right-logo {
-  width: 426px;
-  height: 270px;
+  width: 100%;
+  max-width: 426px;
+  height: auto;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 25px;
+  transition: 1s;
+}
+.underMain__learningPortal-right-logo:hover {
+  transform: scale(1.5);
 }
 .circleGreen__learningPortal {
   position: absolute;
@@ -1066,8 +859,9 @@ a {
 }
 
 .underMain__hockeyPortal {
-  width: 970px;
-  height: 670px;
+  max-width: 970px;
+  width: 100%;
+  height: auto;
   border: 2px solid #bab8b8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -1087,10 +881,11 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
+  text-align: center;
   color: #254ba8;
 }
 .underMain__hockeyPortal-underTitle {
-  width: 760px;
+  max-width: 760px;
   text-align: center;
   margin: 0 auto 80px;
 }
@@ -1104,17 +899,28 @@ a {
   position: relative;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0 60px;
   margin-bottom: 60px;
 }
-
+.underMain__hockeyPortal-main-left {
+  margin: auto;
+}
 .underMain__hockeyPortal-left-logo {
-  width: 426px;
-  height: 270px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: auto;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 25px;
+  transition: 1s;
+}
+.underMain__hockeyPortal-left-logo:hover {
+  transform: scale(1.5);
 }
 .underMain__hockeyPortal-main-right {
+  max-width: 350px;
+  width: 100%;
   margin-left: 80px;
 }
 .underMain__hockeyPortal-main-right-list {
@@ -1136,12 +942,14 @@ a {
 }
 
 .underMain__myBusiness {
-  width: 970px;
+  max-width: 970px;
+  width: 100%;
+  height: auto;
   height: 670px;
   border: 2px solid #bab8b8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  margin: 0 auto 200px;
+  margin: 0 auto 150px;
 }
 .underMain__myBusiness-title {
   width: 112px;
@@ -1160,7 +968,7 @@ a {
   color: #254ba8;
 }
 .underMain__myBusiness-underTitle {
-  width: 760px;
+  max-width: 760px;
   text-align: center;
   margin: 0 auto 80px;
 }
@@ -1169,15 +977,22 @@ a {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+  text-align: center;
 }
 .underMain__myBusiness-main {
   padding: 0 60px;
   margin-bottom: 60px;
 }
 .underMain__myBusiness-logo {
-  width: 430px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   display: block;
   margin: 0 auto;
+  transition: 1s;
+}
+.underMain__myBusiness-logo:hover {
+  transform: scale(1.5);
 }
 .underMain__myBusiness-footer {
   width: 224px;
@@ -1192,7 +1007,7 @@ a {
 
 .videos {
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .videos__title {
   max-width: 800px;
@@ -1200,11 +1015,13 @@ a {
   text-align: center;
 }
 .videos__title-top {
+  font-family: 'Futura';
   font-style: normal;
   font-weight: 500;
-  font-size: 54px;
-  line-height: 63px;
-  margin: 0 auto 60px;
+  font-size: 65px;
+  line-height: 86px;
+  color: #696969;
+  margin: 0 auto 40px;
 }
 .videos__title-bot {
   font-style: normal;
@@ -1212,7 +1029,7 @@ a {
   font-size: 20px;
   line-height: 30px;
   max-width: 600px;
-  margin: 0 auto 80px;
+  margin: 0 auto 50px;
 }
 .videos__wrapper {
   max-width: 1300px;
@@ -1249,74 +1066,6 @@ a {
   font-size: 20px;
   line-height: 30px;
 }
-/* .underMain__first-part {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 150px;
-}
-.underMain__first-part-text-wrapper {
-  width: 550px;
-  margin-bottom: 50px;
-}
-.underMain__first-part-pic-item {
-  width: 564px;
-  max-width: 100%;
-}
-.underMain__first-part-main-text-item {
-  font-weight: 500;
-  font-size: 54px;
-  line-height: 63px;
-  margin-bottom: 30px;
-}
-.underMain__first-part-under-main-text-item {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-}
-.underMain__second-part {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.underMain__second-part-pic-item {
-  width: 564px;
-  max-width: 100%;
-}
-.underMain__second-part-text-wrapper {
-  max-width: 550px;
-  margin-bottom: 50px;
-}
-.underMain__second-part-main-text {
-  margin-bottom: 32px;
-}
-.underMain__second-part-main-text-item {
-  font-weight: 500;
-  font-size: 54px;
-  line-height: 63px;
-  margin-top: 100px;
-}
-.underMain__second-part-under-main-text-item {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-} */
 /* underMain styles end */
 
 /* footer styles start */
@@ -1379,6 +1128,7 @@ a {
 }
 .footer__list-item {
   text-align: center;
+  margin-bottom: 10px;
 }
 .footer__pic {
   height: 70px;
@@ -1406,6 +1156,28 @@ a {
 /* footer styles end */
 
 /* media start */
+@media screen and (max-width: 1000px) {
+  .main__line {
+    min-height: 670px;
+  }
+  .secondCircle {
+    top: 260px;
+  }
+  .thirdCircle {
+    top: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .main__line {
+    min-height: 715px;
+  }
+  .secondCircle {
+    top: 310px;
+  }
+  .thirdCircle {
+    top: 495px;
+  }
+}
 @media screen and (max-width: 767px) {
   .header__burger {
     display: block;
@@ -1468,6 +1240,51 @@ a {
     -webkit-transform: translateY(-50%) rotate(-45deg);
     -ms-transform: translateY(-50%) rotate(-45deg);
     transform: translateY(-50%) rotate(-45deg);
+  }
+  .underHeader__title-item-top {
+    font-size: 60px;
+  }
+  .underHeader__title-item-bot {
+    font-size: 60px;
+  }
+  .underHeader__skills-item {
+    font-size: 19px;
+  }
+  .main__line {
+    min-height: 1015px;
+  }
+  .secondCircle {
+    top: 510px;
+  }
+  .thirdCircle {
+    top: 700px;
+  }
+  .main__list {
+    margin-left: 40px;
+  }
+  .main__list-item-title {
+    font-size: 30px;
+  }
+  .main__list-item-text {
+    font-size: 20px;
+  }
+  .underMain__learningPortal-title-text {
+    font-size: 15px;
+  }
+  .circleGreen__learningPortal {
+    display: none;
+  }
+  .cirlceBlue__learningPortal {
+    display: none;
+  }
+  .underMain__hockeyPortal-underTitle {
+    margin: 0 auto 40px;
+  }
+  .underMain__hockeyPortal-main-right {
+    margin-left: 0px;
+  }
+  .videos__title-top {
+    font-size: 45px;
   }
 }
 /* media end */
