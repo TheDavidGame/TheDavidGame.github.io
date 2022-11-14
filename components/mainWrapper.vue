@@ -1,0 +1,149 @@
+<template>
+  <main class="main">
+    <div class="main__wrapper">
+      <div class="main__line"></div>
+      <div class="main__circle firstCircle"></div>
+      <div class="main__circle secondCircle"></div>
+      <div class="main__circle thirdCircle"></div>
+      <div class="main__arrow"></div>
+      <div class="main__list">
+        <div class="main__list-item">
+          <p class="main__list-item-title">Education</p>
+          <p class="main__list-item-text">
+            РТУ МИРЭА, Институт информационных технологий, 4 курс Направление:
+            Программная инженерия, инструментальное и прикладное программное
+            обеспечение
+          </p>
+        </div>
+        <div class="main__list-item">
+          <p class="main__list-item-title">Languages</p>
+          <p class="main__list-item-text">
+            Английский — intermediate <br />
+            Техническая документация
+          </p>
+        </div>
+        <div class="main__list-item">
+          <p class="main__list-item-title">Work experience</p>
+          <p class="main__list-item-text">
+            Январь 2021 – Январь 2022: ООО «ФИТКОНСАЛТИНГ» <br />
+            Январь 2022 – Июль 2022: ООО «Ambirel Software»
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</template>
+<script>
+export default {
+  name: 'mainWrapper',
+}
+</script>
+<style>
+.main {
+  position: relative;
+  margin-bottom: 160px;
+}
+.main__line {
+  position: absolute;
+  min-height: 670px;
+  background: #59be7e;
+  padding: 2px;
+}
+.main__circle {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background-color: orange;
+}
+.firstCircle {
+  position: absolute;
+  left: -6px;
+  top: 15px;
+}
+.secondCircle {
+  position: absolute;
+  left: -6px;
+  top: 260px;
+}
+.thirdCircle {
+  position: absolute;
+  left: -6px;
+  top: 450px;
+}
+.main__arrow {
+  position: absolute;
+  bottom: -88px;
+  left: -10px;
+  width: 20px;
+  border: solid #59be7e;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.main__list {
+  margin-left: 80px;
+}
+.main__list-item {
+  max-width: 745px;
+  margin-bottom: 40px;
+}
+.main__list-item-title {
+  font-family: 'Futura';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #696969;
+}
+.main__list-item-text {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__line {
+    min-height: 670px;
+  }
+  .secondCircle {
+    top: 260px;
+  }
+  .thirdCircle {
+    top: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .main__line {
+    min-height: 715px;
+  }
+  .secondCircle {
+    top: 310px;
+  }
+  .thirdCircle {
+    top: 495px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main__line {
+    min-height: 1015px;
+  }
+  .secondCircle {
+    top: 510px;
+  }
+  .thirdCircle {
+    top: 700px;
+  }
+  .main__list {
+    margin-left: 40px;
+  }
+  .main__list-item-title {
+    font-size: 30px;
+  }
+  .main__list-item-text {
+    font-size: 20px;
+  }
+}
+</style>
