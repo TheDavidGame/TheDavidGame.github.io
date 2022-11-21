@@ -328,6 +328,7 @@ export default {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+  font-weight: bold;
 }
 
 .underMain__hockeyPortal {
@@ -423,6 +424,7 @@ export default {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+  font-weight: bold;
 }
 
 .underMain__myBusiness {
@@ -478,6 +480,7 @@ export default {
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
+  border-radius: 25px;
 }
 .underMain__myBusiness-logo:hover {
   -webkit-transform: scale(1.5);
@@ -493,6 +496,7 @@ export default {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {

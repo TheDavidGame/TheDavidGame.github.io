@@ -18,7 +18,9 @@
               class="footer__pic"
             />
             <p class="footer__text">Gmail</p>
-            <a href="#!" class="footer__link">vlados.billi@gmail.com</a>
+            <a href="mailto:vlados.billi@gmail.com" class="footer__link"
+              >vlados.billi@gmail.com</a
+            >
           </li>
           <li class="footer__list-item">
             <img
@@ -38,7 +40,9 @@
               class="footer__pic"
             />
             <p class="footer__text">Telegram</p>
-            <a href="#!" class="footer__link">@TheDavidGame</a>
+            <a href="https://t.me/TheDavidGame" class="footer__link"
+              >@TheDavidGame</a
+            >
           </li>
         </ul>
       </nav>

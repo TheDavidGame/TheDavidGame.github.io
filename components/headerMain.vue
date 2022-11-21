@@ -119,8 +119,6 @@ a {
 }
 .header__link-item {
   padding: 3px;
-  background: #ff9a3f;
-  border-radius: 25%;
 }
 .header__link:hover,
 .header__link:focus,
@@ -183,13 +181,13 @@ a {
   .header__item {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .header__item:last-child {
     margin-bottom: 0;
   }
   .header__link {
-    font-size: 42px;
+    font-size: 32px;
     line-height: 48px;
   }
   .header__nav-close {
