@@ -65,9 +65,9 @@
             </div>
             <div class="circleBlue-learningPortal">
               <img
-                src="../static/cirlceBlue__learningPortal.svg"
-                alt="cirlceBlue__learningPortal"
-                class="cirlceBlue__learningPortal"
+                src="../static/cirlceOrange__learningPortal.svg"
+                alt="cirlceOrange__learningPortal"
+                class="cirlceOrange__learningPortal"
               />
             </div>
           </div>
@@ -188,7 +188,7 @@ export default {
 .underMain__title-left {
   width: 420px;
   height: 14px;
-  background: #9cffc4;
+  background: #5bc180;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px 10px;
@@ -196,7 +196,7 @@ export default {
 .underMain__title-right {
   width: 420px;
   height: 14px;
-  background: #9cffc4;
+  background: #5bc180;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px 0px;
@@ -206,7 +206,7 @@ export default {
   padding: 15px;
   max-width: 365px;
   max-height: 126px;
-  background: #c0b6ff;
+  background: #5bc180;
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -218,10 +218,13 @@ export default {
   font-size: 30px;
   line-height: 26px;
   margin-bottom: 5px;
+  color: white;
 }
 .underMain__underTitle-botText {
   font-style: normal;
+  font-size: 17px;
   line-height: 26px;
+  color: white;
 }
 .underMain__learningPortal {
   max-width: 970px;
@@ -234,22 +237,21 @@ export default {
   margin: 0 auto 50px;
 }
 .underMain__learningPortal-title {
-  max-width: 351px;
-  max-height: 55px;
-  padding: 6px;
-  background: #c0b6ff;
-  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  margin: 20px auto;
+  width: 290px;
+  height: auto;
+  padding: 26px;
+  background: #5bc180;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 33px auto 46px;
 }
 .underMain__learningPortal-title-text {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
-  color: #254ba8;
+  color: white;
 }
 .underMain__learningPortal-underTitle {
   max-width: 760px;
@@ -313,7 +315,7 @@ export default {
   right: 10px;
   z-index: 1;
 }
-.cirlceBlue__learningPortal {
+.cirlceOrange__learningPortal {
   position: absolute;
   top: -50px;
   right: 10px;
@@ -342,27 +344,26 @@ export default {
   margin: 0 auto 50px;
 }
 .underMain__hockeyPortal-title {
-  width: 175px;
-  height: 30px;
-  padding: 6px;
-  background: #b6fffb;
-  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  margin: 20px auto 80px;
+  width: 260px;
+  height: auto;
+  padding: 26px;
+  background: #5bc180;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 33px auto 46px;
 }
 .underMain__hockeyPortal-title-text {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   text-align: center;
-  color: #254ba8;
+  color: white;
 }
 .underMain__hockeyPortal-underTitle {
   max-width: 760px;
   text-align: center;
-  margin: 0 auto 80px;
+  margin: 0 auto 40px;
 }
 .underMain__hockeyPortal-underTitle-text {
   font-style: normal;
@@ -430,8 +431,7 @@ export default {
 .underMain__myBusiness {
   max-width: 970px;
   width: 100%;
-  height: auto;
-  height: 670px;
+  height: 600px;
   border: 2px solid #bab8b8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -439,26 +439,25 @@ export default {
   margin: 0 auto 150px;
 }
 .underMain__myBusiness-title {
-  width: 112px;
-  height: 30px;
-  padding: 6px;
-  background: #ffb6b6;
-  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  margin: 20px auto 80px;
+  width: 165px;
+  height: auto;
+  padding: 27px;
+  background: #5bc180;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 33px auto 46px;
 }
 .underMain__myBusiness-title-text {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
-  color: #254ba8;
+  color: white;
 }
 .underMain__myBusiness-underTitle {
   max-width: 760px;
   text-align: center;
-  margin: 0 auto 80px;
+  margin: 0 auto 45px;
 }
 .underMain__myBusiness-underTitle-text {
   font-style: normal;
@@ -469,7 +468,7 @@ export default {
 }
 .underMain__myBusiness-main {
   padding: 0 60px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .underMain__myBusiness-logo {
   width: 100%;
@@ -500,13 +499,19 @@ export default {
 }
 
 @media screen and (max-width: 767px) {
-  .underMain__learningPortal-title-text {
+  /* .underMain__learningPortal-title-text {
     font-size: 15px;
   }
+  .underMain__hockeyPortal-title-text {
+    font-size: 15px;
+  }
+  .underMain__myBusiness-title-text {
+    font-size: 15px;
+  } */
   .circleGreen__learningPortal {
     display: none;
   }
-  .cirlceBlue__learningPortal {
+  .cirlceOrange__learningPortal {
     display: none;
   }
   .underMain__hockeyPortal-underTitle {

@@ -8,7 +8,7 @@
       <div class="main__arrow"></div>
       <div class="main__list">
         <div class="main__list-item">
-          <p class="main__list-item-title">Education</p>
+          <p class="main__list-item-title">Образование</p>
           <p class="main__list-item-text">
             РТУ МИРЭА, Институт информационных технологий, 4 курс Направление:
             Программная инженерия, инструментальное и прикладное программное
@@ -16,14 +16,14 @@
           </p>
         </div>
         <div class="main__list-item">
-          <p class="main__list-item-title">Languages</p>
+          <p class="main__list-item-title">Языки</p>
           <p class="main__list-item-text">
             Английский — intermediate <br />
             Техническая документация
           </p>
         </div>
         <div class="main__list-item">
-          <p class="main__list-item-title">Work experience</p>
+          <p class="main__list-item-title">Опыт работы</p>
           <p class="main__list-item-text">
             Январь 2021 – Январь 2022: ООО «ФИТКОНСАЛТИНГ» <br />
             Январь 2022 – Июль 2022: ООО «Ambirel Software»
@@ -53,7 +53,7 @@ export default {
   height: 1em;
   width: 1em;
   border-radius: 50%;
-  background-color: orange;
+  background: #ffa757;
 }
 .firstCircle {
   position: absolute;
@@ -91,7 +91,6 @@ export default {
   margin-bottom: 40px;
 }
 .main__list-item-title {
-  font-family: 'Futura';
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
@@ -105,36 +104,54 @@ export default {
 
 @media screen and (max-width: 1000px) {
   .main__line {
-    min-height: 670px;
+    display: none;
+  }
+  .firstCircle {
+    display: none;
   }
   .secondCircle {
-    top: 260px;
+    display: none;
   }
   .thirdCircle {
-    top: 450px;
+    display: none;
+  }
+  .main__arrow {
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 900px) {
   .main__line {
-    min-height: 715px;
+    display: none;
+  }
+  .firstCircle {
+    display: none;
   }
   .secondCircle {
-    top: 310px;
+    display: none;
   }
   .thirdCircle {
-    top: 495px;
+    display: none;
+  }
+  .main__arrow {
+    display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
   .main__line {
-    min-height: 1015px;
+    display: none;
+  }
+  .firstCircle {
+    display: none;
   }
   .secondCircle {
-    top: 510px;
+    display: none;
   }
   .thirdCircle {
-    top: 700px;
+    display: none;
+  }
+  .main__arrow {
+    display: none;
   }
   .main__list {
     margin-left: 40px;

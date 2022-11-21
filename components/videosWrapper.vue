@@ -32,7 +32,7 @@ export default {
   margin-bottom: 100px;
 }
 .videos__title {
-  max-width: 800px;
+  max-width: 1044px;
   margin: 0 auto;
   text-align: center;
 }
