@@ -23,7 +23,9 @@
       <p class="description-potfolio-item">
         Портфолио было написано на Nuxt js с использованием БЭМ и Vuetify
         <br />
-        <a class="description-potfolio-item-link" href=""
+        <a
+          class="description-potfolio-item-link"
+          href="https://github.com/TheDavidGame/portfolio"
           >Ссылка на исходный код</a
         >
       </p>
