@@ -19,13 +19,13 @@
 
           <div class="underHeader__skills-wrapper">
             <p class="underHeader__skills-item">
-              HTML5, CSS3, VUE JS, NUXT JS, JS
+              REACT JS, TYPESCRIPT, HTML5, CSS3, VUE JS, JS
             </p>
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line first"></div>
             </div>
             <p class="underHeader__skills-item">
-              vuex, axios, vue router, axios, i18n
+              redux, redux thunk, redux toolkit, vuex, axios, i18n
             </p>
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line second"></div>
@@ -34,12 +34,12 @@
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line third"></div>
             </div>
-            <p class="underHeader__skills-item">YouTrack, Git, Figma</p>
+            <p class="underHeader__skills-item">Jira, YouTrack, Git, Figma</p>
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line fourth"></div>
             </div>
             <p class="underHeader__skills-item">
-              npm, Rest API, API Yandex map
+              npm, Rest API, API Yandex map, ESLint, Prettier
             </p>
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line fifth"></div>
@@ -75,19 +75,23 @@ export default {
   padding-top: 100px;
   margin-bottom: 70px;
 }
+
 .underHeader__left {
   width: 560px;
   margin: 70px 0 20px 0;
 }
+
 .underHeader__title {
   max-width: 350px;
   margin-bottom: 80px;
 }
+
 .underHeader__title-item {
   font-weight: 500;
   font-size: 72px;
   line-height: 84px;
 }
+
 .underHeader__title-item-top {
   font-family: 'Futura';
   font-style: normal;
@@ -96,6 +100,7 @@ export default {
   line-height: 96px;
   color: #696969;
 }
+
 .underHeader__title-item-bot {
   font-family: 'Futura';
   font-style: normal;
@@ -105,12 +110,15 @@ export default {
   color: #5bc180;
   margin-left: 25px;
 }
+
 .underHeader__title-item-line {
   border-bottom: 2px solid #696969;
 }
+
 .underHeader__under-title {
   position: relative;
 }
+
 .underHeader_under-title-pic {
   position: absolute;
   top: -35px;
@@ -129,56 +137,68 @@ export default {
   z-index: 1;
   margin-bottom: 50px;
 }
+
 .underHeader__skills-item {
   font-weight: 300;
   font-size: 25px;
   line-height: 50px;
   margin-bottom: 15px;
 }
+
 .underHeader__skills-containter {
   width: 80%;
   height: 20px;
   padding: 5px 0px 16px 5px;
   background-color: #ddd;
 }
+
 .underHeader__skills-line {
   text-align: right;
   padding-right: 20px;
   line-height: 20px;
   height: 12px;
 }
+
 .first {
   width: 75%;
   background: #5bc180;
 }
+
 .second {
   width: 76%;
   background: #5bc180;
 }
+
 .third {
   width: 82%;
   background: #5bc180;
 }
+
 .fourth {
   width: 80%;
   background: #5bc180;
 }
+
 .fifth {
   width: 79%;
   background: #5bc180;
 }
+
 .underHeader__right-logo {
   width: 562px;
   max-width: 100%;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 767px) {
   .underHeader__title-item-top {
     font-size: 60px;
   }
+
   .underHeader__title-item-bot {
     font-size: 60px;
   }
+
   .underHeader__skills-item {
     font-size: 19px;
   }
