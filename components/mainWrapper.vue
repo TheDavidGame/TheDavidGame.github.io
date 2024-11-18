@@ -25,7 +25,7 @@
         <div class="main__list-item">
           <p class="main__list-item-title">Опыт работы</p>
           <p class="main__list-item-text">
-            Август 2021 – Август 2022: ООО «ФИТКОНСАЛТИНГ» <br/>
+            Август 2020 – Август 2022: ООО «ФИТКОНСАЛТИНГ» <br/>
             Август 2022 – Январь 2023: ООО «Ambirel Software» <br/>
             Апрель 2023 - По настоящее время
           </p>
