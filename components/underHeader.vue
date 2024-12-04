@@ -25,12 +25,12 @@
               <div class="underHeader__skills-line first"></div>
             </div>
             <p class="underHeader__skills-item">
-              redux, redux thunk, redux toolkit, vuex, axios, i18n
+              MobX, Redux, Redux thunk, Redux toolkit, vuex, axios, i18n
             </p>
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line second"></div>
             </div>
-            <p class="underHeader__skills-item">Bootstrap, Vuetify, Tailwind</p>
+            <p class="underHeader__skills-item">Bootstrap, Vuetify, Tailwind, Material UI</p>
             <div class="underHeader__skills-containter">
               <div class="underHeader__skills-line third"></div>
             </div>
